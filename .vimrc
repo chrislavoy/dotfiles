@@ -100,6 +100,6 @@ Plug 'jistr/vim-nerdtree-tabs'
 
 call plug#end()
 
-autocmd VimEnter * Tagbar
-autocmd VimEnter * NERDTree
-autocmd VimEnter * wincmd p
+"autocmd VimEnter * Tagbar
+"autocmd VimEnter * NERDTree
+"autocmd VimEnter * wincmd p
