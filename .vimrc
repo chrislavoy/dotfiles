@@ -35,6 +35,7 @@ let g:go_highlight_interfaces = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
 let g:go_list_type = "quickfix"
+let g:deoplete#enable_at_startup = 1
 
 " Settings for NERDTree
 map <C-\> :NERDTreeToggle<CR>
@@ -65,10 +66,10 @@ let g:ycm_key_list_select_completion   = ['<C-j>', '<C-n>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-k>', '<C-p>', '<Up>']
 
 " Helper function
-"function! Cond(cond, ...)
-"	let opts = get(a:000, 0, {})
-"	return a:cond ? opts : extend(opts, { 'on': [], 'for': [] })
-"endfunction
+function! Cond(cond, ...)
+	let opts = get(a:000, 0, {})
+	return a:cond ? opts : extend(opts, { 'on': [], 'for': [] })
+endfunction
 
 " *** VIM-PLUG ***
 call plug#begin('~/.vim/plugged')
@@ -78,8 +79,9 @@ Plug 'fatih/molokai'
 Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/syntastic'
 "Plug 'Shougo/neocomplete', Cond(has('mac'))
-"Plug 'Shougo/neosnippet'
-"Plug 'Shougo/neosnippet-snippets'
+Plug 'Shougo/deoplete.nvim', {'do': ':UpdateRemotePlugins'}
+Plug 'Shougo/neosnippet'
+Plug 'Shougo/neosnippet-snippets'
 Plug 'jiangmiao/auto-pairs'
 Plug 'scrooloose/nerdcommenter'
 Plug 'majutsushi/tagbar'
@@ -92,8 +94,9 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'terryma/vim-multiple-cursors'
 "Plug 'valloric/youcompleteme'
+"Plug 'rdnetto/YCM-Generator', {'branch' : 'stable'}
+Plug 'sirver/ultisnips'
 Plug 'ervandew/supertab'
-"Plug 'sirver/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'marijnh/tern_for_vim'
 Plug 'jistr/vim-nerdtree-tabs'
