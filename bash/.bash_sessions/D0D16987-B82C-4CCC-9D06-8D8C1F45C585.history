@@ -1,0 +1,502 @@
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+gcc -Wall -g project3.c 
+gcc -Wall -g project3.c 
+gcc -Wall -g project3.c 
+gcc -Wall -g project3.c 
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+./a.out 0 < tests/test02.txt
+./a.out 0 < tests/test03.txt
+./a.out 0 < tests/test04.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test04.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test04.txt
+./a.out 0 < tests/test01.txt
+./a.out 0 < tests/test04.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test04.txt
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+./a.out 0 < tests/test01.txt
+./a.out 0 < tests/test05.txt
+./a.out 0 < tests/test04.txt
+./a.out 0 < tests/test04.txt
+git status
+git add project3.c 
+git commit -m "Input appears to be mostly working now"
+git push
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+git status
+git add project3.c 
+git commit -m "input works"
+git push
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test04.txt
+./a.out 0 < tests/test04.txt
+./a.out 0 < tests/test04.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test04.txt
+./a.out 0 < tests/test01.txt
+./a.out 1 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 1 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 1 < tests/test01.txt
+gcc -Wall -g project3.c 
+gcc -Wall -g project3.c 
+./a.out 1 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 1 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 1 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 1 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 1 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+./a.out 1 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 1 < tests/test01.txt
+./a.out 0 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 1 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 1 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 1 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 1 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 1 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 1 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 1 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 1 < tests/test01.txt
+gcc -Wall -g project3.c 
+./a.out 1 < tests/test01.txt
+clear
+ls
+./test1_p3.sh
+sudo ./test1_p3.sh
+test1_p3.sh
+bash
+cat test1_p3.sh 
+cat $(test1_p3.sh)
+cat test1_p3.sh 
+sudo su
+chmod +x test1_p3.sh 
+./test1_p3.sh 
+gcc -Wall -g project3.c 
+./a.out 0 < tests/test01.txt
+./test1_p3.sh 
+./test1_p3.sh 
+./test1_p3.sh 
+gcc -Wall -g project3.c 
+./test1_p3.sh 
+./test1_p3.sh 
+brew install cmake
+git submodule update --init --recursive
+vim project3.c 
+pip3
+pip3 update
+pip3 | grep update
+brew update && brew upgrade
+nvim project3.c 
+nvim project3.c 
+nvim project3.c 
+cd /www/CSE340/project3/
+clear && for i in 1 2 3 4 5 6; do echo "$(cat tests/test0$i.txt tests/test0$i.txt.expected0 tests/test0$i.txt.expected1 tests/test0$i.txt.expected2)"; done
+cd
+brew update && brew upgrade
+brew update && brew upgrade
+brew update && brew upgrade
+brew update; brew upgrade
+brew update; brew upgrade;
+brew update
+brew upgrade
+cd
+nvim .vimrc 
+nvim
+exit
+cd go/src/github.com/chrislavoy/palindrome/
+go run main.go -i pop
+go install 
+ls ..
+ls ../..
+ls ../../..
+ls ../../../..
+ls ../../../../bin/
+go build
+ls
+./palindrome
+./palindrome - racecar
+./palindrome -i racecar
+ls
+rm palindrome 
+cd go/src/github.com/chrislavoy/palindrome/
+ls
+nvim main.go 
+cd /www/pixiTest/
+nvim game.js 
+cd /www/pixiTest/
+nvim game.js 
+brew update && brew upgrade
+nvim
+brew update && brew upgrade
+brew update && brew upgrade
+brew update && brew upgrade
+brew update && brew upgrade
+brew install neovim/neovim/neovim
+brew install neovim/neovim/neovim
+brew update && brew upgrade
+brew update && brew upgrade
+cd delete/
+gcc -Wall main.c 
+./a.out 
+./a.out 
+gcc -Wall main.c 
+./a.out 
+gcc -Wall main.c 
+./a.out 
+cd /www/pixiTest/
+nvim game.js 
+nvim game.js cd
+cd
+cat /dev/urandom | base64
+cat /dev/urandom 
+cat /dev/urandom | base64
+echo balls
+echo balls | base64
+cat /dev/urandom | base64
+cat /dev/urandom | base64
+base64
+man base64
+echo balls && echo balls | base64
+echo balls && echo balls | base64 | base64 -D
+kernel
+brew update && brew upgrade
+ls
+mkdir delete
+cd delete/
+touch main.c
+nvim main.c 
+nvim main.c 
+cd ..
+cd delete/
+ls -A
+nvim .vimrc
+brew update && brew upgrade
+cd /www/CSE340/
+mkdir project4
+cd project
+cd project4
+mv ~/Downloads/semantic.c semantic.c
+mv ~/Downloads/syntax.h syntax/h
+mv ~/Downloads/syntax.h syntax.h
+mv ~/Downloads/cse340_f16_p4_tests.zip cse340_f16_p4_tests.zip
+open .
+ls -A1
+nvim semantic.c 
+nvim semantic.c 
+nvim
+nvim tutor
+nvim
+nvim
+diskutil -list
+diskutil
+diskutil list
+brew update && brew upgrade
+cd /www/CSE340/project4
+nvim semantic.c 
+nvim semantic.c 
+nvim semantic.c 
+nvim semantic.c 
+nvim semantic.c 
+git status
+ls
+ls -A
+rm .DS_Store 
+ls
+git status
+rm ../.DS_Store ../project3/.DS_Store 
+git status
+git commit -am "Update Repo"
+cd ../
+ls
+git status
+git add .
+git status
+git commit -m "Added project4"
+git push
+git status
+git log
+git status
+git status
+brew update && brew upgrade
+brew update && brew upgrade
+ls
+cd
+git clone https://github.com/chrislavoy/dotfiles
+ls
+ls dotfiles/
+ls -a dotfiles/
+cp .vimrc dotfiles/.vimrc 
+cd dotfiles/
+git status
+nvim .vimrc 
+git commit -am "updated .vimrc"
+git push
+cd
+brew update && brew upgrade
+brew update && brew upgrade
+brew update && brew upgrade
+brew update && brew upgrade
+ls -A1
+ls
+brew update && brew upgrade
+cd /www/CSE340/project4/
+git status
+ls
+nvim semantic.c 
+brew update && brew upgrade
+brew update && brew upgrade
+exit
+cat /dev/urandom | base64
+brew udpate && brew upgrade
+brew update && brew upgrade
+exit
+nvim
+top
+/dev/null
+cat /dev/urandom | base64
+top
+cd /www/
+cd ~/go/src/github.com/chrislavoy/
+ls
+cd palindrome/
+ls
+nvim main.go 
+cd /www/CSE340/project4/
+ls
+nvim semantic.c 
+brew update && brew upgrade
+brew update && brew upgrade
+brew update && brew upgrade
+exit
+brew update && brew upgrade
+ls
+exit
+nvim
+go get -u github.com/lib/pq
+cd go/src/github.com/chrislavoy/
+ls
+cd blenderServer/
+ls
+nvim main.go 
+git add -A
+git status
+git commit 
+git status
+git log
+git commit -am "Added PostgreSQL"
+heroku login
+heroku login
+git push heroku master
+git push heroku master
+git push heroku master
+git push heroku master
+export DATABASE_URL=postgres:///$(whoami)
+which psql
+psql -h localhost
+psql
+psql -h localhost
+brew update && brew upgrade
+cd go/src/github.com/chrislavoy/blenderServer/
+nvim main.go 
+nvim main.go 
+nvim main.go 
+nvim main.go 
+brew update && brew upgrade
+exit
+exit
+brew update && brew upgrade
+brew update && brew upgrade
+cd /Applications/
+ls
+ls -A
+rm ckb.app/
+rm -rf ckb.app/
+sudo rm -rf ckb.app/
+ls
+s
+ls
+cd
+ls
+ls -A1
+ls -A2
+ls -A
+cd /www/LAWLIPOPS/
+ls
+nvim main.go 
+cd go/src/github.com/chrislavoy/blenderServer/
+ls
+nvim main.go 
+'/Applications/Postgres.app/Contents/Versions/9.5/bin'/psql -p5432
+exit
