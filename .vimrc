@@ -80,6 +80,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/syntastic'
 "Plug 'Shougo/neocomplete', Cond(has('mac'))
 Plug 'Shougo/deoplete.nvim', {'do': ':UpdateRemotePlugins'}
+Plug 'zchee/deoplete-go', { 'do': 'make'}
 Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'
 Plug 'jiangmiao/auto-pairs'
@@ -100,9 +101,11 @@ Plug 'ervandew/supertab'
 Plug 'honza/vim-snippets'
 Plug 'marijnh/tern_for_vim'
 Plug 'jistr/vim-nerdtree-tabs'
+Plug 'sickill/vim-monokai'
 
 call plug#end()
 
-"autocmd VimEnter * Tagbar
+autocmd VimEnter * Tagbar
 "autocmd VimEnter * NERDTree
-"autocmd VimEnter * wincmd p
+autocmd VimEnter * wincmd p
+autocmd VimEnter * wincmd p
