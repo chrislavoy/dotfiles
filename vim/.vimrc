@@ -65,6 +65,13 @@ let g:UltiSnipsJumpBackwardTrigger     = '<s-tab>'
 let g:ycm_key_list_select_completion   = ['<C-j>', '<C-n>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-k>', '<C-p>', '<Up>']
 
+" vim-javascript
+let g:javascript_plugin_jsdoc = 1
+let g:javascript_plugin_ngdoc = 1
+
+"javascript-libraries-syntax
+let g:used_javascript_libs = 'angularjs'
+
 " Helper function
 function! Cond(cond, ...)
 	let opts = get(a:000, 0, {})
@@ -102,6 +109,10 @@ Plug 'honza/vim-snippets'
 Plug 'marijnh/tern_for_vim'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'sickill/vim-monokai'
+Plug 'burnettk/vim-angular'
+Plug 'pangloss/vim-javascript'
+Plug 'othree/javascript-libraries-syntax.vim'
+Plug 'leafgarland/typescript-vim'
 
 call plug#end()
 
