@@ -1,500 +1,500 @@
-nvim semantic.c 
-nvim fonseca_notes.txt
-cd /www/CSE340/project4/
-nvim syntax.h 
-nvim syntax.h 
-cd $MYGO 
+git add .
+git status
+git commit -am "Added files for Heroku"
+heroku create
 ls
-cd algorithms/
-go run main.go 
+git push heroku master
+cd ..
 ls
-go run main.go 
-cd
-cd /www/CSE340/project4/
+ls lit-hamlet-45452/
+ls -A lit-hamlet-45452/
+rm -rf lit-hamlet-45452/
 ls
-./test1.sh 
-./test1.sh 
-gophersay | lolcat
-gophersay | lolcat; clear;
-clear; gophersay | lolcat
-nvim semantic.c 
-nvim semantic.c 
-./test1.sh 
-cd /www/CSE340/project4/
-nvim syntax.h 
-nvim fonseca_notes.txt 
-ls -l
-nvim .bash_profile
-source .bash_profile
-nvim .bash_profile
-source .bash_profile
-say Zach get the fuck out of the bathroom
-say okay, whatever
-say GNU
-say GNUs not unix
-say Its not fine. The hot tub is too hot
-say fonseca_notes.txt 
-cat fonseca_notes.txt | say
-say goodbye moon man
-say goodbye moon man
-cat fonseca_notes.txt | say
-man say
-say -v=?
-say -v ?
-say -v ? | grep zh
-say -v Mei-Jia 你好
-say -v Mei-Jia 我要吃饭，但是我没有钱
-say -v Kyoko こんにちは
-say -v Mei-Jia 欢迎来我的屁股
-say -v Anna Es gibt einen Schraubendreher in meinem Arschloch
-say -v Anna Es gibt einen Schraubendreher in meinem Arschloch
-say -v Fiona Look I'm in trainspotting
-
-say -v Fiona what
-say -v Fiona look im in train spotting
-say -v Fiona Nano is for fags
-say -v Mei-Jia what
-say -v Mei-Jia what are you talking about?
-say -v Mei-Jia Yes, I eat the fish
-say -v Mei-Jia Yes, Im. hungry
-say -v Mei-Jia Yes, I'm. hungry
-man say
-say -v Mei-Jia -r 600 Yes, I'm. hungry
-say -v Mei-Jia -r 600 Yes, Im hungry
-say -v Mei-Jia -r 300 Yes, Im hungry
-say -v Mei-Jia -r 300 Yes, Im huungry
-say -v Mei-Jia -r 300 Yes, Im haungry
-say -v Mei-Jia -r 300 Yes. Im haungry
-say -v ?
-say -v Jorge Hey Pablo
-say -v Mariska Üdvözlöm! Mariska vagyok. Én vagyok a magyar hang
-say -v Nora Hei, jeg heter Nora. Jeg er en norsk stemme.
-say -v Satu Hei, minun nimeni on Satu. Olen suomalainen ääni.
-say -v Yuri Здравствуйте, меня зовут Yuri. Я – русский голос системы.
-say -v Alva Hej, jag heter Alva. Jag är en svensk röst.
-say -v Diego Hola, me llamo Diego y soy una voz española.
-say -v Diego Hola, me llamo Diego y soy una voz española.
-say -v Paulina Hola, me llamo Diego y soy una voz española.
-say -v ?
-say -v ? | grep es
-say -v ? | grep es_
-clear && say -v ?
-say -v Fred fuck
-say -v Fred fuck me sideways with a rake
-say -v Fred Hes lying to cover up he porn habbits
-say -v Fred What is love. Baby dont hurt me. Dont hurt me. No more
-say -v Karen Crikey
-say -v Karen Criky
-say -v Karen Cry key
-say -v ?
-say -v Laura Ahoj. Volám sa Laura . Som hlas v slovenskom jazyku.
-say -v Moira Hello, my name is Moira. I am an Irish-English voice.
-say -v Moira 
-say -v Tessa Hello, my name is Tessa. I am a South African-English voice.
-say -v Veena Fuck my Chutny chute
-say -v Veena I am become one with the curry cluster
-say -v Veena shove that dirty chicken in my spicy curry hole
-say -v Veena shove that dirty chicken in my spicy curry hole. You dirty dirty man
-say -v Veena Hello, thank you for calling apple tech support
-say -v Veena vagina
-say -v Veena vajeena
-say -v Veena bachina
-say -v Veena ba china
-say -v Veena ba china
-say -v Veena
-say -v Victoria
-say -v ?
-say -v Zuzana
-say -v ?
-say -v Fred
-nvim navy_seal.txt
-cat navy_seal.txt | say -v Fred
-cat navy_seal.txt | say -v Veera -r 250
-cat navy_seal.txt | say -v Veena -r 250
-cat navy_seal.txt | say -v Veena
-say -v Fred 01010111
-brew update | say -v Fred
-top | say -v Fred
-cat /dev/urandom | say
-say cool
-cat navy_seal.txt | say
-say
-gophersay | say
-gophersay | say
-gophersay | say
-say underscore
-say _
-say "_"
-say quit being so god damn autistic
-ls _a
+mkdir chatApp
+git init
+ls
+ls
 ls -A
-conky
-top
-man say
-say WELCOME BACK PABLO
-say -f /www/CSE340/project4/semantic.c 
-say -f navy_seal.txt 
-diskutil
-diskutil -list
-diskutil list
-diskutil list
-diskutil list
-diskutil
-say welcome back pablo
-diskutil list
-diskutil list disk2
-diskutil list disk2
-diskutil
-diskutil eraseDisk disk2
-diskutil list disk2
-diskutil reformat
-diskutil eraseDisk exfat disk2
-diskutil eraseDisk NTFS disk2
-sudo diskutil eraseDisk NTFS disk2
-sudo diskutil eraseDisk NTFS key disk2
-sudo diskutil eraseDisk exfat key disk2
-diskutil list
-diskutil
-diskutil unmountDisk /dev/disk2
-sudo dd if=~/Downloads/memtest86+-5.01.iso of=/dev/rdisk2 bs=1m
-diskutil eject /dev/disk2
-diskutil list
-exit
-cd /www/CSE340/project4/
-nvim semantic.c 
-say
-say nigger
-say god damn fucking niggers
-say god damn fucking niggers
-nvim semantic.c 
-nvim semantic.c 
-nano
-nano
+rm -rf .git
 ls
-ls -A1
-clear && ls -A | lolcat
-clear && ls -A | lolcat
-clear && ls -A | lolcat
-clear && ls -A | lolcat
-clear && ls -A | lolcat
-clear && ls -A | lolcat
 ls -A
-ls -A1
-./test.
-./test1.sh 
-./test1.sh 
-./test1.sh 
-./test1.sh 
-say -v ?
-say -v Monica Hola, me llamo Monica, y soy una voz española.
-say shut up pablo
-say -v Fred Pablo, you bitch
-say no
-no
-say no
-say -v Veena
-say -v Veena stick your dirty chicken in my spicy curry hole
-say -v Veena curry
-say -v Veena curry
-say -v Veena curry
-say -v Veena curry currey
-say -v Veena curry
-say -v Veena curry
-clear
-say well I guess just pout
-exit
-say no fucking shit dumb ass
-say -f navy_seal.txt 
-say -f -r 250 navy_seal.txt 
-say -f navy_seal.txt -r 250
-say youre fucking dead, kiddo
-exit
-say {
-say{no}
-say {no}
-say (no)
-say {no}
-say no
-say will smith is dead now
-say will smith is dead now
-say will smith is dead now
-say will smith is dead now
-say in west philadelphia, born and raised, on the playground is where I spent most of my days
-say dont, stop, be lee ving
-say hold on to that fee, ling
-say dont, stop, be lee ving, hold on to that fee, ling.
-say dont, stop, be lee ving, hold on to that fee, ling.
-say -v Diego Hola, fuck my butt
-say -v Diego Hola, fuck my butt
-say -f navy_seal.txt
-say something
-say -f navy_seal.txt
-brew update && brew upgrade
-brew update && brew upgrade
-brew update && brew upgrade
-brew update && brew upgrade
-brew update && brew upgrade
-exit
-brew update && brew upgrade
-brew update && brew upgrade
-brew update && brew upgrade
-go get -u engo.io/engo
-cd $MYGO
+cd chatApp/
+godep save
 ls
-cd tictac-go/
-./tictac-go 
-gocode
-go get -u github.com/nsf/gocode
-go build
-go run main.go 
-go build
-go get -u github.com/go-gl/mathgl/mgl32
-go get -u github.com/golang/freetype
-go get -u github.com/x/image
-go get -u github.com/x/image/font
-go get -u github.com/x/image/font
-go get -u golang/x/image
-go get -u golang.org/x/image
-go get -u golang.org/x/mobile
-go build
-go build
-./tictac-go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-cd
-cd /www/
-git clone https://github.com/chrislavoy/tictac-go
-cd tictac-go/
-cd ../
-rm -rf tictac-go/
+cat Godeps/Godeps.json 
+cat web: chatApp
+cat "web: chatApp"
+echo "web: chatApp"
+Procfile < <echo "web: chatApp"
+Procfile << echo "web: chatApp"
+touch Procfile << echo "web: chatApp"
 ls
-cd
-cd $MYGO 
-ls
-go get chrislavoy/tictac-go
-go get github.com/chrislavoy/tictac-go
-ls
-ls tictac-go/
-cd tictac-go/
 ls -A
-nvim main.go
-nvim main.go
-nvim main.go
-nvim main.go
-nvim main.go
-nvim main.go
-nvim main.go
-nvim main.go
-nvim systems/GamePiecePlacementSystem.go
-nvim main.go
-nvim systems/GamePiecePlacementSystem.go
-nvim systems/GamePiecePlacementSystem.go
-cd
-cd /www/
-cd tictac-go/
-cd ../
-cd
-cd $MYGO
-cd tictac-go/
-go build
+nvim Procfile
 ls
-./tictac-go 
-git status
-git commit -am "Create basic window"
 git add .
-git commit -m "Create basic window"
-git push
-mkdir assets
-mkdir assets/textures
-mv ~/Downloads/board.png assets/textures/board.png
-ls assets/textures/
-open .
-ls assets/textures/
-go run main.go 
-go run main.go 
-git status
-rm .DS_Store 
+git init
+git add .
+git commit -m "Added files for Heroku"
+heroku create --help
+herokue apps:create --region us
+heroku apps:create --region us
+heroku create
+git push heroku master
+ls
+nvim main.go
+git push heroku master
+heroku git:remote -a mighty-beach-62705
+git push heroku master
+godep save .
+git push heroku master
+cat Godeps/Godeps.json 
 git status
 git add .
-git status
-git add .
-git status
-go run main.go 
-git status
-git commit -am "Draw board on screen"
-git status
-git push
-mv ~/Downloads/oTexture.png assets/textures/oTexture.png
-mv ~/Downloads/xTexture.png assets/textures/
-ls assets/textures/
-go run main.go 
-ls assets/
-ls assets/textures/
-ls assets/textures/
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-clear && gophersay | lolcat
-ls
-mkdir systems
-go run main.go 
-go run main.go 
-ls
-ls
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-git status
-git add .
-git status
-git commit -m "Added textures"
-git push
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-git status
-git commit -am "Can place X or O with respective keys"
-git push
-git status
-git status
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-go run main.go 
-git status
-git commit -am "Draw board again"
-git push
-cd /Users/chrislavoy/go/src/github.com/chrislavoy/tictac-go/
+git commit -m "Added Go file"
+git push heroku master
 ls
 nvim main.go 
-nvim main.go 
-cd /Users/chrislavoy/go/src/github.com/chrislavoy/tictac-go/
+cd exercism/go/gigasecond/
+go test
+go test
+go test
+go test
+go test
+go test
+go test
+go test
+go test
+go test
+go test
+go test
+go test
+go test
+go test
+go test
+go test -bench .
+exercism submit gigasecond.go 
+go test -bench .
+go test -bench .
+go test -bench .
+exercism submit gigasecond.go 
+cd ..
+cd hamming/
+cd
+heroku login
+cd $MYGO
+mkdir chatApp
+ls
+rm chatApp/
+rm -rf chatApp/
+help heroku
+heroku help
+heroku apps
+heroku update
+brew upgrade heroku
+mkdir gentle-wave-71583
+ls
+cd gentle-wave-71583/
+git init
+heroku git:remote -a gentle-wave-71583
+ls
+cd ..
+heroku apps create
+heroku apps --help
+ls
+ls
+heroku apps:create
+ls
+git pull
+cd gentle-wave-71583/
+git pull
+git pull heroku:master
+git pull heroku master
+git add .
+git commit -am "Testing go buildpack"
+git push heroku master
+ls
+ls ..
+ls ../blenderServer/
+cp ../blenderServer/Dockerfile Dockerfile
+ls
+cp ../blenderServer/Procfile Procfile
+cd ..
+cp blenderServer/ gentle-wave-71583/
+cp blenderServer/* gentle-wave-71583/
+ls gentle-wave-71583/
+cd gentle-wave-71583/
+ls
+git add .
+git commit -am "Testing buildpack"
+git push
+git push heroku master
+ls ../blenderServer/
+cd ..
 ls
 git status
-git commit -am "Minor syntax changes"
-git push
-brew update && brew upgrade
-exit
-brew update && brew upgrade
-ls -A
-cd /www/
+cd chatApp/
 ls
-cd
-brew update && brew upgrade
-brew update && brew upgrade
-xit
-exit
-ls -A
-vim .bash_profile
-brew install gnu-stow
-brew install stow
-ls
-ls dotfiles/
-ls -A dotfiles/
-nvim dotfiles/.vimrc 
-nvim .vimrc 
-cp .vimrc dotfiles/.vimrc 
-cd dotfiles/
 git status
 git add .
-git commit -am "Updated .vimrc"
+git commit -m "testing http"
 git push
-pwd
+git push heroku master
+git push heroku master
+git status
+git commit -am "Fixed imports issues"
+git push heroku master
+godeps save
+godeps save .
+godep save
+godep save ./
+godep save
+cat Godeps/Godeps.json 
 ls
-mkdir vim bash
-ls
-mv .vimrc vim/.vimrc
-cp ~/.bash_profile bash/.bash_profile
-ls
-ls bash/
-ls -a bash/
+cat Godeps/Godeps.json 
 git status
 git add *
 git status
+git commit -m "Fixed GoDeps error"
+git push heroku master
+git status
+git add .
+git commit -m "Fixed missing fun error"
+git status
+git push heroku master
+git add .
+git commit -m "Fixed missing imports error"
+git push heroku master
+go get github.com/gorilla/websocket
+go get github.com/garyburd/redigo/redis
+go get github.com/Sirupsen/logrus
+go get github.com/heroku-examples/go-websocket-chat-demo/...
+cd ../..
+cd heroku-examples/
+ls
+cd  go-websocket-chat-demo/
+ls
+cat main.go 
+redis-cli ping
+ls -A1
+brew udpate && brew upgrade
+brew update && brew upgrade
+redis
+brew install redis
+redis-cli ping
+redis-server
+redis-server
+cd /www/
+ls chrislavoy.github.io/
+mkdir chatApp
+ls
+cd chatApp/
+ls
+nvim main.go
+ls
+rm main.go 
+ls
+ls
+cd ..
+cd /Users/chrislavoy/go/src/github.com/chrislavoy/blenderServer/
+ls
+nvim main.go 
+nvim main.go 
+cd /www/chatApp/
+go get github.com/garyburd/redigo
+go get -u github.com/garyburd/redigo
+go get -u github.com/soveran/redisurl
+cd ..
+cd /Users/chrislavoy/go/src/github.com/chrislavoy/blenderServer/
+ls
+ls -A1
+ls
+git status
+heroku login
+git add .
+git commit -am "Added required param"
+git push
+git push heroku master
+heroku local
+heroku local
+git status
+git add .
+git commit -m "Filter by open hours"
+heroku local
+git pull
+git status
+git push heroku master
+git status
 git add .
 git status
-stow bash
-stow vim
-cd ~/dotfiles/
-stow bash
-mkdir vim/.vim
-stow vim
+git commit -m "Sped up initial return, testing for additional returns"
+git push heroku master
+heroku local
+go build main.go 
+heroku local
+go run main
 ls
-cd
-ls
-ls -A
-ls -A
-mv .vim dotfiles/vim/.vim
-mv .viminfo dotfiles/vim/.viminfo
-ls
-ls -A
-mv .viminfo.go dotfiles/vim/.viminfo.go
-rm .vimrc 
-ls
-ls -A
-ls -A
-mv .bash_history dotfiles/bash/.bash_history
-mv .bash_profile.pysave dotfiles/bash/.bash_profile.pysave
-mv .bash_sessions dotfiles/bash/.bash_sessions
-rm .bash_profile 
-ls
-ls -A
-ls -A
-ls -A
-cd dtof
-cd dotfiles/
-ls
-stow vim
-stow bash
-ls
-cd
-ls
-ls -A
-ls
-ls .config/nvim
-ls -A .config/nvim
-ls -A .config/nvim/.vim
-cd dotfiles/
-ls
-mkdir neovim
-cd neovim
-mkdir .config
-mv ~/.config/nvim .config/
-ls
-ls -A
-ls -A .config/
-ls -A .config/nvim
-cd ..
-stow neovim
-cd
+rm main
+go run main.go 
+heroku local
+git status
+git commit -am "Update main page"
+git push heroku master
+brew update && brew upgrade
 exit
+cd /Users/chrislavoy/go/src/github.com/chrislavoy/blenderServer/
+ls
+nvim main.go 
+brew update && brew upgrade
+atom
+ls
+say -f navy_seal.txt 
+cat navy_seal.txt 
+say -h
+man say
+say -v ?
+say -v Ting-Ting 闭嘴马特
+say -v Ting-Ting 闭嘴马特
+say -v Ting-Ting -f navy_seal.txt 
+say -v Ting-Ting -f navy_seal.txt 
+brew update && brew upgrade
+ssh 192.168.1.6
+ssh pi@192.168.1.6
+ssh pi@192.168.1.3
+ssh pi@192.168.1.3
+ssh pi@192.168.1.3
+ssh pi@192.168.1.3
+ssh pi@192.168.1.3
+brew update && brew upgrade
+brew update && brew upgrade
+brew update && brew upgrade
+brew update && brew upgrade
+exit
+ssh pi@192.168.1.3
+ssh pi@192.168.1.3
+brew update && brew upgrade
+brew update && brew upgrade
+ls -A1
+brew update && brew upgrade
+ls
+ls /www/CSE340/
+ls /www/CSE340/project
+ls /www/CSE340/project4
+cd /www/CSE340/
+ls
+mkdir project
+ls
+rm -rf project
+mkdir  project5
+cd project5
+ls
+wget https://cse340.fulton.asu.edu/cse340/viewfile?project=7&file=compiler.h
+ls
+ls -A
+curl https://cse340.fulton.asu.edu/cse340/viewfile?project=7&file=compiler.h
+ls
+ls
+ls -A
+mv ~/Downloads/compiler.h compiler.h
+mv ~/Downloads/compiler.c compiler.c
+mv ~/Downloads/cse340_f16_p5_tests.zip cse340_f16_p5_tests.zip
+cd ..
+mkdir Bonus1
+cd Bonus1/
+mv ~/Downloads/test1_p3.sh test1_p3.sh
+mv ~/Downloads/project3.c project3.c
+mv ~/Downloads/cse340_f16_p3_tests.zip .
+ls
+mv ~/Downloads/semantic.c .
+ls
+mkdir ../Bonus2
+ls
+ls ..
+mv semantic.c ../Bonus2/
+cd ../Bonus2
+ls
+mv ~/Downloads/syntax.h .
+mv ~/Downloads/cse340_f16_p4_tests.zip .
+cd ..
+mkdir Bonus3
+cd Bonus3/
+ls
+mv ~/Downloads/cse340_f16_bonus_tests.zip .
+cd
+npm install -g jshint
+cd
+ls -A
+cd dotfiles/
+ls
+cd vim
+ls
+ls -A
+nvim .vimrc
+cd /Users/chrislavoy/go/src/github.com/chrislavoy/blenderServer/
+ls
+heroku update
+brew upgrade heroku
+heroku logi
+heroku login
+ls
+ls static
+brew upgrade go
+brew update && brew upgrade
+brew update && brew upgrade
+cd $MYGO 
+ls
+cd blenderServer/
+cd files
+cd js
+nvim app.js 
+cd ..
+nvim app.js 
+ls
+ls ../templates/
+rm index.html 
+ls
+cd
+cd $MYGO
+ls
+cd blenderServer/
+ls
+nvim files/app.js 
+cd /Users/chrislavoy/go/src/github.com/chrislavoy/blenderServer/
+ls
+git status
+git commit -am "Adding content to Angular Scripts")
+git commit -am "Adding content to Angular Scripts"
+git push heroku master
+git commit -am "Fixing root not being available"
+heroku local
+git push heroku master
+git status
+git commit -am "testing angular again"
+git push heroku master
+ls -A
+cat Dockerfile 
+cat Makefile 
+cat Makefile 
+ls
+cat Procfile 
+nvim Dockerfile 
+ls -A
+nvim Dockerfile 
+go build main.go 
+go install main
+go install main.go 
+go install
+heroku local
+ls
+Go Build
+Go build
+heroku local
+Go install
+Go install
+heroku local
+go install
+heroku local
+go build
+heroku local
+go build
+heroku local
+go build
+heroku local
+heroku local
+go build
+heroku local
+go build
+heroku local
+heroku local
+heroku local
+mv files/js/app.js files/.
+ls files/
+rm -rf files/js/
+ls
+ls files/
+git status
+git add .
+git status
+go build
+heroku local
+heroku local
+ls
+ls files/
+go build
+heroku local
+heroku local
+go build
+heroku local
+ls
+cd files/
+ls
+mkdir js
+mv app.js js/app.js
+ls
+heroku local
+cd ..
+heroku local
+ls
+mkdir templates
+nvim Dockerfile 
+ls
+ls
+mv files/js/app.js files/app.js
+mv files/index.html templates/.
+ls
+ls files/
+ls files/js
+rm -rf files/js
+ls
+heroku local
+heroku local
+git status
+git add .
+git status
+heroku local
+go build
+heroku local
+heroku local
+ls
+ls -A
+ls -A
+go build
+go install
+heroku local
+go build
+go install
+heroku local
+heroku local
+ls -A
+ls files/
+heroku local
+heroku local
+go build
+go install
+heroku local
+go build
+go install
+heroku local
+ls
+mv files/app.js templates/app.js
+ls files/
+rm -rf files/
+ls
+cd templates/
+ls
+heroku local
+go build
+go install
+cd ..
+ls
+go build
+go install
+heroku local
+heroku local
+ls
+ls templates/
+go build
+heroku local
+ls -A
+cd /Users/chrislavoy/go/src/github.com/chrislavoy/blenderServer/
+nvim main.go 
