@@ -1,252 +1,3 @@
-git add .
-git status
-git commit -am "Added files for Heroku"
-heroku create
-ls
-git push heroku master
-cd ..
-ls
-ls lit-hamlet-45452/
-ls -A lit-hamlet-45452/
-rm -rf lit-hamlet-45452/
-ls
-mkdir chatApp
-git init
-ls
-ls
-ls -A
-rm -rf .git
-ls
-ls -A
-cd chatApp/
-godep save
-ls
-cat Godeps/Godeps.json 
-cat web: chatApp
-cat "web: chatApp"
-echo "web: chatApp"
-Procfile < <echo "web: chatApp"
-Procfile << echo "web: chatApp"
-touch Procfile << echo "web: chatApp"
-ls
-ls -A
-nvim Procfile
-ls
-git add .
-git init
-git add .
-git commit -m "Added files for Heroku"
-heroku create --help
-herokue apps:create --region us
-heroku apps:create --region us
-heroku create
-git push heroku master
-ls
-nvim main.go
-git push heroku master
-heroku git:remote -a mighty-beach-62705
-git push heroku master
-godep save .
-git push heroku master
-cat Godeps/Godeps.json 
-git status
-git add .
-git commit -m "Added Go file"
-git push heroku master
-ls
-nvim main.go 
-cd exercism/go/gigasecond/
-go test
-go test
-go test
-go test
-go test
-go test
-go test
-go test
-go test
-go test
-go test
-go test
-go test
-go test
-go test
-go test
-go test -bench .
-exercism submit gigasecond.go 
-go test -bench .
-go test -bench .
-go test -bench .
-exercism submit gigasecond.go 
-cd ..
-cd hamming/
-cd
-heroku login
-cd $MYGO
-mkdir chatApp
-ls
-rm chatApp/
-rm -rf chatApp/
-help heroku
-heroku help
-heroku apps
-heroku update
-brew upgrade heroku
-mkdir gentle-wave-71583
-ls
-cd gentle-wave-71583/
-git init
-heroku git:remote -a gentle-wave-71583
-ls
-cd ..
-heroku apps create
-heroku apps --help
-ls
-ls
-heroku apps:create
-ls
-git pull
-cd gentle-wave-71583/
-git pull
-git pull heroku:master
-git pull heroku master
-git add .
-git commit -am "Testing go buildpack"
-git push heroku master
-ls
-ls ..
-ls ../blenderServer/
-cp ../blenderServer/Dockerfile Dockerfile
-ls
-cp ../blenderServer/Procfile Procfile
-cd ..
-cp blenderServer/ gentle-wave-71583/
-cp blenderServer/* gentle-wave-71583/
-ls gentle-wave-71583/
-cd gentle-wave-71583/
-ls
-git add .
-git commit -am "Testing buildpack"
-git push
-git push heroku master
-ls ../blenderServer/
-cd ..
-ls
-git status
-cd chatApp/
-ls
-git status
-git add .
-git commit -m "testing http"
-git push
-git push heroku master
-git push heroku master
-git status
-git commit -am "Fixed imports issues"
-git push heroku master
-godeps save
-godeps save .
-godep save
-godep save ./
-godep save
-cat Godeps/Godeps.json 
-ls
-cat Godeps/Godeps.json 
-git status
-git add *
-git status
-git commit -m "Fixed GoDeps error"
-git push heroku master
-git status
-git add .
-git commit -m "Fixed missing fun error"
-git status
-git push heroku master
-git add .
-git commit -m "Fixed missing imports error"
-git push heroku master
-go get github.com/gorilla/websocket
-go get github.com/garyburd/redigo/redis
-go get github.com/Sirupsen/logrus
-go get github.com/heroku-examples/go-websocket-chat-demo/...
-cd ../..
-cd heroku-examples/
-ls
-cd  go-websocket-chat-demo/
-ls
-cat main.go 
-redis-cli ping
-ls -A1
-brew udpate && brew upgrade
-brew update && brew upgrade
-redis
-brew install redis
-redis-cli ping
-redis-server
-redis-server
-cd /www/
-ls chrislavoy.github.io/
-mkdir chatApp
-ls
-cd chatApp/
-ls
-nvim main.go
-ls
-rm main.go 
-ls
-ls
-cd ..
-cd /Users/chrislavoy/go/src/github.com/chrislavoy/blenderServer/
-ls
-nvim main.go 
-nvim main.go 
-cd /www/chatApp/
-go get github.com/garyburd/redigo
-go get -u github.com/garyburd/redigo
-go get -u github.com/soveran/redisurl
-cd ..
-cd /Users/chrislavoy/go/src/github.com/chrislavoy/blenderServer/
-ls
-ls -A1
-ls
-git status
-heroku login
-git add .
-git commit -am "Added required param"
-git push
-git push heroku master
-heroku local
-heroku local
-git status
-git add .
-git commit -m "Filter by open hours"
-heroku local
-git pull
-git status
-git push heroku master
-git status
-git add .
-git status
-git commit -m "Sped up initial return, testing for additional returns"
-git push heroku master
-heroku local
-go build main.go 
-heroku local
-go run main
-ls
-rm main
-go run main.go 
-heroku local
-git status
-git commit -am "Update main page"
-git push heroku master
-brew update && brew upgrade
-exit
-cd /Users/chrislavoy/go/src/github.com/chrislavoy/blenderServer/
-ls
-nvim main.go 
-brew update && brew upgrade
-atom
 ls
 say -f navy_seal.txt 
 cat navy_seal.txt 
@@ -498,3 +249,252 @@ heroku local
 ls -A
 cd /Users/chrislavoy/go/src/github.com/chrislavoy/blenderServer/
 nvim main.go 
+brew update && brew upgrade
+cd /Users/chrislavoy/go/src/github.com/chrislavoy/blenderServer/
+ls -A
+ls -A
+go build
+go install
+heroku local
+ls
+mkdir web
+mv templates/app.js web/.
+ls web/
+ls templates/
+go build
+go build
+go install
+heroku local
+ls
+go build
+go install
+heroku local
+go build
+go install
+heroku local
+heroku local
+go install
+heroku local
+go install
+heroku local
+go install
+heroku local
+go install
+heroku local
+go install
+heroku local
+go install
+heroku local
+go install
+heroku local
+go install
+heroku local
+heroku local
+go install
+heroku local
+heroku local
+git status
+git add .
+git status
+git status
+git commit -am "Made angular and bootstrap work"
+git push heroku master
+heroku local
+git status
+git commit -am "Added working prototype in AngularJS"
+git status
+git push heroku master
+heroku loca
+heroku local
+git status
+git add .
+git status
+git commit -m "Moved button"
+git push heroku master
+heroku local
+git push heroku master
+heroku local
+git status
+git commit -am "Playing with styling"
+git push heroku master
+cd
+ls
+cd dotfiles/
+nvim .vimrc
+ls
+cd neovim/
+ls
+ls -A
+cd ../vim/
+ls
+nvim .vim
+nvim .vimrc 
+git status
+git add ../*
+git status
+git add *
+git status
+git add .
+git status
+git add .vim/plugged/vim-angular/
+git status
+git add .vim/plugged/vim-angular/*
+git status
+git add .vim/plugged/.
+git status
+git commit -m "Added new plugs"
+git push
+git status
+cd ..
+ls
+git status
+git add .
+git status
+git add vim/.vim/plugged/vim-angular/
+git status
+git add vim/.vim/plugged/vim-angular/*
+git add vim/.vim/plugged/vim-angular/.
+git status
+git add .
+git status
+git status
+cd vim/.vim/plugged/vim-angular/
+ls -A
+git add .
+git status
+cd ..
+git status
+git add .
+git status
+git add vim-angular/.
+git status
+cd vim-angular/
+ls
+git status
+ls doc/
+ls doc/tags 
+ls
+git add .
+git commit -am "Added angular changes"
+git push
+git status
+git push
+cd ..
+git status
+git add .
+git status
+git commit -m "Updates"
+git push
+cd ..
+ls
+git status
+cd ..
+cd ..
+ls
+git status
+git status
+cd
+ls
+cd $MYGO
+ls
+cd blenderServer/
+ls
+mv web/app.js templates/.
+ls
+rm -rf web
+go build
+go build
+heroku local
+go build
+heroku local
+go build
+heroku local
+go build
+heroku local
+git status
+git commit .
+git statua
+git status
+git add .
+git status
+git status
+git commit -am "Fixed file issues"
+git push heroku master
+git status
+git status
+git add .
+git status
+git commit -am "Add additional log statement"
+git push heroku aster
+git push heroku master
+cd
+nvim
+npm -g install typescript
+nvim dotfiles/vim/.vimrc 
+nvim dotfiles/vim/.vimrc 
+nvim
+ls
+cd /www/
+ls
+mkdir angular-tour-of-heroes
+cd angular-tour-of-heroes/
+cd ..
+ls
+rm -rf angular-tour-of-heroes/
+git clone https://github.com/angular/quickstart.git angular-tour-of-heroes
+cd angular-tour-of-heroes/
+ls
+npm install
+ls
+ls -A1
+npm start
+cd /www/angular-tour-of-heroes/
+ls
+ls -A1
+cd app/
+ls
+ls -A1
+nvim app.component.ts 
+top
+cd /www/angular-tour-of-heroes/
+cd app/
+nvim app.module.ts 
+brew update && brew upgrade
+cd /www/angular-tour-of-heroes/
+ls
+npm start
+cd /www/angular-tour-of-heroes/app/
+nvim app.component.ts 
+nvim app.component.ts 
+nvim app.component.ts 
+ls -A
+nvim hero-detail.component.ts 
+brew update && brew upgrade
+brew update && brew upgrade
+brew update && brew upgrade
+brew linkapps macvim
+ls /www/CSE340/
+fschk
+fsck
+brew install thefuck
+brew update && brew upgrade
+cd /Users/chrislavoy/go/src/github.com/chrislavoy/blenderServer/
+ls
+nvim main
+nvim main.go 
+nvim main.go 
+meteor
+meteor update
+meteor --version
+cd /www/
+ls -A
+ls simple-todos/
+nvim simple-todos/simple-todos.
+nvim simple-todos/simple-todos.js
+nvim simple-todos/simple-todos.html
+cd
+nvim dotfiles/vim/.vimrc
+cd /www/simple-todos/
+ls
+nvim simple-todos.js 
+nvim dotfiles/vim/.vimrc

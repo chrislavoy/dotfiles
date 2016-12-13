@@ -113,6 +113,13 @@ Plug 'burnettk/vim-angular'
 Plug 'pangloss/vim-javascript'
 Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'leafgarland/typescript-vim'
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'elzr/vim-json'
+Plug 'groenewege/vim-less'
+Plug 'tpope/vim-markdown'
+Plug 'tpope/vim-surround'
+Plug 'marijnh/tern_for_vim'
+Plug 'Slava/tern-meteor'
 
 call plug#end()
 
