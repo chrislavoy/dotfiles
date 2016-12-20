@@ -1,102 +1,3 @@
-git status
-git add *
-git status
-git add .
-git status
-git add .vim/plugged/vim-angular/
-git status
-git add .vim/plugged/vim-angular/*
-git status
-git add .vim/plugged/.
-git status
-git commit -m "Added new plugs"
-git push
-git status
-cd ..
-ls
-git status
-git add .
-git status
-git add vim/.vim/plugged/vim-angular/
-git status
-git add vim/.vim/plugged/vim-angular/*
-git add vim/.vim/plugged/vim-angular/.
-git status
-git add .
-git status
-git status
-cd vim/.vim/plugged/vim-angular/
-ls -A
-git add .
-git status
-cd ..
-git status
-git add .
-git status
-git add vim-angular/.
-git status
-cd vim-angular/
-ls
-git status
-ls doc/
-ls doc/tags 
-ls
-git add .
-git commit -am "Added angular changes"
-git push
-git status
-git push
-cd ..
-git status
-git add .
-git status
-git commit -m "Updates"
-git push
-cd ..
-ls
-git status
-cd ..
-cd ..
-ls
-git status
-git status
-cd
-ls
-cd $MYGO
-ls
-cd blenderServer/
-ls
-mv web/app.js templates/.
-ls
-rm -rf web
-go build
-go build
-heroku local
-go build
-heroku local
-go build
-heroku local
-go build
-heroku local
-git status
-git commit .
-git statua
-git status
-git add .
-git status
-git status
-git commit -am "Fixed file issues"
-git push heroku master
-git status
-git status
-git add .
-git status
-git commit -am "Add additional log statement"
-git push heroku aster
-git push heroku master
-cd
-nvim
-npm -g install typescript
 nvim dotfiles/vim/.vimrc 
 nvim dotfiles/vim/.vimrc 
 nvim
@@ -498,3 +399,102 @@ pip install --upgrade pip setuptools
 pip
 brew postinstall python
 exit
+cod Documents/Projects/cocos2d/firstgame/MyCppGame/
+cd Documents/Projects/cocos2d/firstgame/MyCppGame/
+cd Documents/Projects/cocos2d/firstgame/MyCppGame/
+nvim Classes/
+nvim Classes/
+nvim Classes/AppDelegate.cpp 
+brew update && brew upgrade
+git clone https://github.com/cocos2d/cocos2d-x.git
+cd cocos2d-x/
+python download-deps.py 
+git submodule update --init
+ls
+./setup.py 
+source /Users/chrislavoy/.bash_profile
+ls
+cd
+cocos
+cocos
+cocos
+ls
+brew update && brew upgrade
+nvim dotfiles/vim/.vimrc 
+cd dotfiles/
+ls
+ls -A
+git sttaus
+git sttaus
+fuck
+git status
+git add .
+git status
+git add vim/.vim/*
+git status
+git add .
+git commit -am "Update Dec 19, 2016"
+git push
+cd
+nvim main.cpp
+g++ main.cpp 
+ls
+a.out 
+rm a.out 
+rm main.cpp 
+ld
+ls
+ls
+ls
+ls
+ls cocos2d-x/
+ls
+cd Documents/
+ls -A
+mkdir Projects
+cd..
+cd
+cd cocos2d-x/
+ls
+cocos new -l cpp -p com.chrislavoy.firstgame -d ~/Documents/Projects/cocos2d/firstgame
+cd ~/Documents/Projects/cocos2d/firstgame/
+ls -A
+ls
+cd MyCppGame/
+ls
+ls -A
+ls -A1
+ls Cls
+ls Classes/
+open .
+ls -A
+ls
+ls 0A
+ls -A
+cocos run -s ~/Documents/Projects/cocos2d/firstgame/MyCppGame/ -p mac
+cocos run -s ~/Documents/Projects/cocos2d/firstgame/MyCppGame/ -p mac
+ls
+ls ..
+ls ../..
+brew update && brew upgrade
+cd /Users/chrislavoy/go/src/github.com/chrislavoy/blenderServer/
+nvim main.go 
+cd /www/Quarry/
+git status
+git add *
+git status
+git commt -am "Finished networking tutorial"
+git commit -am "Finished networking tutorial"
+git push
+nvim ls
+ls
+ls
+ls Asse
+ls Assets/
+ls Assets/Scripts
+nvim Assets/Scripts/PlayerController.cs
+ls -A
+ls Assets/Scripts
+ls -A Assets/Scripts
+git status
+ls
