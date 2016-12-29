@@ -1,173 +1,3 @@
-nvim dotfiles/vim/.vimrc 
-nvim dotfiles/vim/.vimrc 
-nvim
-ls
-cd /www/
-ls
-mkdir angular-tour-of-heroes
-cd angular-tour-of-heroes/
-cd ..
-ls
-rm -rf angular-tour-of-heroes/
-git clone https://github.com/angular/quickstart.git angular-tour-of-heroes
-cd angular-tour-of-heroes/
-ls
-npm install
-ls
-ls -A1
-npm start
-cd /www/angular-tour-of-heroes/
-ls
-ls -A1
-cd app/
-ls
-ls -A1
-nvim app.component.ts 
-top
-cd /www/angular-tour-of-heroes/
-cd app/
-nvim app.module.ts 
-brew update && brew upgrade
-cd /www/angular-tour-of-heroes/
-ls
-npm start
-cd /www/angular-tour-of-heroes/app/
-nvim app.component.ts 
-nvim app.component.ts 
-nvim app.component.ts 
-ls -A
-nvim hero-detail.component.ts 
-brew update && brew upgrade
-brew update && brew upgrade
-brew update && brew upgrade
-brew linkapps macvim
-ls /www/CSE340/
-fschk
-fsck
-brew install thefuck
-brew update && brew upgrade
-cd /Users/chrislavoy/go/src/github.com/chrislavoy/blenderServer/
-ls
-nvim main
-nvim main.go 
-nvim main.go 
-meteor
-meteor update
-meteor --version
-cd /www/
-ls -A
-ls simple-todos/
-nvim simple-todos/simple-todos.
-nvim simple-todos/simple-todos.js
-nvim simple-todos/simple-todos.html
-cd
-nvim dotfiles/vim/.vimrc
-cd /www/simple-todos/
-ls
-nvim simple-todos.js 
-nvim dotfiles/vim/.vimrc
-cd dotfiles/vim/.vim/
-ls
-cd plugged/
-ls
-cd tern_for_vim/
-npm install
-ls
-cd node_modules/tern/plugin/
-cd ..
-ls
-cd plugin/
-curl https://raw.githubusercontent.com/Slava/tern-meteor/master/meteor.js > meteor.js
-ls
-cat meteor.js 
-cd
-cd dotfiles/vim/
-nvim .vimrc 
-git status
-git add *
-git status
-git add ../*
-git status
-git commit -am "Added Meteor stuff"
-git push
-nvim .vimrc 
-ls
-cd /www/
-git clone https://github.com/chrislavoy/Quarry
-brew update && brew upgrade
-brew update && brew upgrade
-exit
-cd /Users/chrislavoy/go/src/github.com/chrislavoy/blenderServer/
-ls
-nvim main.go 
-cd /www/Quarry/
-git status
-git status
-git add *
-git status
-git commit -am "On Step 13"
-git push
-cd /www/simple-todos/
-ls
-nvim client/main.html 
-nvim client/main.html 
-nvim client/main.html 
-ls
-mkdir imports
-mkdir imports/ui
-nvim imports/ui/body.html
-nvim client/main.html 
-nvim imports/ui/body.html
-nvim imports/ui/body.js
-nvim imports/ui/body.js
-nvim client/main.js 
-cd /Users/chrislavoy/go/src/github.com/chrislavoy/blenderServer/
-ls
-nvim main.go 
-cd /www/
-rm simple-todos/
-fuck
-rm -rf simple-todos/
-meteor create simple-todos
-cd simple-todos/
-ls
-meteor npm install
-npm -g install npm
-npm update
-npm upgrade
-npm -v
-meteor
-ls
-ls -A
-nvim .tern-project
-ls
-ls
-ls -A
-nvim .jshintrc
-ls -A
-ls -A1
-meteor
-meteor
-cd /Users/chrislavoy/go/src/github.com/chrislavoy/blenderServer/
-heroku login
-heroku local
-heroku local
-go build
-heroku local
-go install
-ls -A
-heroku local
-ls -A
-go build
-ls -A
-heroku local
-go build
-heroku local
-git log
-go build
-go build
-heroku local
-go install
 heroku local
 go build
 heroku local
@@ -498,3 +328,173 @@ ls Assets/Scripts
 ls -A Assets/Scripts
 git status
 ls
+brew update && brew upgrade
+npm -g update
+brew update && brew upgrade
+npm -g update
+brew update && brew upgrade
+ls
+ls -A1
+ls .terminus/
+ls .terminus/cache/
+ls .terminus/cache/session 
+ls .terminus/cache/c7a956ff01842ffae4ab63c704246ebd 
+ls -A1
+ls dotfiles/
+ls dotfiles/vim/
+cd dotfiles/vim/
+nvim .vimrc 
+git status
+cd ..
+git status
+git status
+git add *
+git status
+git add vim/.vim/plugged/*
+git add vim/.vim/plugged/vim-angular/*
+git status
+git commit -am "New updates"
+git push
+git log
+ls
+cd
+ls -A1
+tree
+top
+top
+ls -Ah
+ls -h
+ls -x
+nvim
+clear && gophersay | lolcat
+clear && gophersay | lolcat
+clear && gophersay | lolcat
+clear && gophersay | lolcat
+top | lolcat
+clear
+gophersay | lolcat
+echo "______ _____  ________  ___";
+echo "|  _  \  _  ||  _  |  \/  |";
+echo "| | | | | | || | | | .  . |";
+echo "| | | | | | || | | | |\/| |";
+echo "| |/ /\ \_/ /\ \_/ / |  | |";
+echo "|___/  \___/  \___/\_|  |_/";
+echo "                           ";
+echo "                           ";
+echo "                           ";
+echo "                           ";
+echo "                           ";
+echo "                           ";
+echo "                           ";
+echo "                           ";
+echo "                           ";
+echo "                           ";
+echo "                           ";
+echo "                           ";
+echo "                           ";
+echo "                           ";
+echo "                           ";
+echo "                           ";
+echo "                           ";
+echo "                           ";
+cd exercism/c/hello-world/
+ls
+nvim README.md 
+make test
+make test
+exercism submit src/hello_world.c
+cd exercism/c/
+cd anagram/
+nvim README.md 
+ls
+ls exercism/
+ls exercism/go/
+cd exercism/
+exercism fetch c
+ls
+cd c
+ls
+nvim hello-world/
+cd hello-world/
+ls
+nvim README.md 
+cd ..
+exercism fetch
+exercism fetch c
+sl
+ls
+cd anagram/
+ls -A
+ls src/
+nvim src/anagram.h 
+brew update && brew upgrade
+cd exercism/c/
+ls -A
+cd hello-world/
+ls -A
+cat makefile 
+ls test/
+make test
+ls
+brew update && brew upgrade
+cd ../anagram/
+cat README.md 
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+cat makefile 
+ls -A
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+make test
+cat src/anagram.c 
+make test
+brew update && brew upgrade
+brew update && brew upgrade
+brew update && brew upgrade
+brew update && brew upgrade
+ls /www/Quarry/
+git status
+cd /www/Quarry/
+git status
+git pull
+exit
