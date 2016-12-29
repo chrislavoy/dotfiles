@@ -23,8 +23,6 @@ export PATH
 MYGO="$HOME/go/src/github.com/chrislavoy"
 export MYGO
 
-gophersay | lolcat
-
 # Add environment variable COCOS_CONSOLE_ROOT for cocos2d-x
 export COCOS_CONSOLE_ROOT=/Users/chrislavoy/cocos2d-x/tools/cocos2d-console/bin
 export PATH=$COCOS_CONSOLE_ROOT:$PATH
