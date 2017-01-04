@@ -88,6 +88,7 @@ Plug 'scrooloose/syntastic'
 "Plug 'Shougo/neocomplete', Cond(has('mac'))
 Plug 'Shougo/deoplete.nvim', {'do': ':UpdateRemotePlugins'}
 Plug 'zchee/deoplete-go', { 'do': 'make'}
+Plug 'zchee/deoplete-clang'
 Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'
 Plug 'jiangmiao/auto-pairs'
