@@ -1,81 +1,3 @@
-heroku local
-go build
-heroku local
-heroku local
-go build
-heroku local
-git status
-git add .
-git commit -am "Added delay back in"
-git push heroku master
-git push
-git status
-heroku local
-cd /www/Quarry/
-git pull
-brew update && brew upgrade
-npm -g update
-meteor update
-cd /Users/chrislavoy/go/src/github.com/chrislavoy/blenderServer/
-nvim main.go 
-cd ..
-ls
-ls
-ls ..
-ls ../bwmarrin/
-ls
-cd /www/
-ls -A
-cd /Users/chrislavoy/go/src/github.com/chrislavoy/
-cd /www/bagango-dzone/
-ls
-npm start
-ls
-npm start
-npm run-script build
-ls
-ls web/
-cd web/
-npm start
-cat main.js 
-nvim main.js 
-heroku create bagango-dzone
-git init
-git add .
-git status
-git rm static/
-git rm -r static/
-git rm -rf static/
-git status
-ls
-cd ..
-cd web/
-nvim .gitignore
-cd 
-cd /www/bagango-dzone/
-ls
-npm run-script build
-ls
-ls web/
-ls
-rm *
-ls
-rm -rf assets/
-rm -rf web
-rm -rf script/
-ls
-mv node_modules/d-zone/ ./
-ls
-mv node_modules/d-zone/ .
-mv node_modules/d-zone/ /
-rm -rf d-zone/
-rm -rf d-zone/* ./
-mv node_modules/d-zone/* ./
-mv node_modules/d-zone/ .
-ls
-ls node_modules/
-npm install d-zone --no-optionals
-ls
 mv node_modules/d-zone/* ./
 ls
 ls web/
@@ -498,3 +420,81 @@ cd /www/Quarry/
 git status
 git pull
 exit
+cd exercism/
+ls
+exercism fetch c++
+exercism fetch cpp
+ls cpp/
+ls
+cd cpp/
+ls
+cd bob/
+ls
+ls
+cat README.md 
+ls
+cat CMakeLists.txt 
+ls
+nvim bob.cpp
+nvim bob.cpp
+ls
+ls dotfiles/
+ls dotfiles/bash/
+ls -A dotfiles/bash/
+nvim dotfiles/bash/.bash_profile
+cd dotfiles/
+git status
+git add .
+git status
+git commit -am "Remove gophersay call"
+git push
+cd ../exercism/cpp/bob/
+nvim CMakeLists.txt 
+CMake
+brew install lolcat
+brew update && brew upgrade
+cd /www/Quarry/
+git status
+git pull
+cd
+brew update && brew upgrade
+top
+cd exercism/cpp/
+cd bob/
+cd
+ls
+cd exercism/cpp/bob/
+ls
+gophersay
+ls -A
+cat CMakeLists.txt 
+CMake
+cat CMakeLists.txt 
+echo CMakeLists.txt 
+cmake
+mkdir build
+cd build/
+cmake -G "Unix Makefiles" ..
+ls ..
+ls -A ..
+ls -A
+cmake
+ls CMakeFiles/
+cd ..
+ls -A
+cd build/
+ls -A
+ls -A Cm
+ls -A CMakeFiles/
+make
+cd ..
+gcc bob.cpp 
+cd
+nvim tree.cpp
+ls
+mkdir hackerrank
+mv tree.cpp hackerrank/
+ls
+ls hackerrank/
+nvim dotfiles/vim/.vimrc 
+rm /Users/chrislavoy/.local/share/nvim/swap/%Users%chrislavoy%dotfiles%vim%.vimrc.swp 
