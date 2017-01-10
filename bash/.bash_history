@@ -1,92 +1,3 @@
-mv node_modules/d-zone/* ./
-ls
-ls web/
-ls
-mv discord-config-example.json discord-config.json
-mv socket-config-example.json socket-config.json
-nvim discord-config.json 
-nvim socket-config.json 
-nvim socket-config.json 
-npm run-script build
-ls
-ls web/
-cd web/
-heroku local
-cd ..
-cd ..
-rm -rf bagango-dzone/
-cd /Users/chrislavoy/go/src/github.com/chrislavoy/shopbot/
-ls
-nvim main.go 
-ls
-gophersay
-gophersay | lolcat
-cd /Users/chrislavoy/go/src/github.com/chrislavoy/blenderServer/
-heroku run bash
-ls
-lsls
-ls
-cd /www/
-ls
-mkdir bagango-dzone
-cd bagango-dzone/
-git init
-heroku git:remote -a bagango-dzone
-git pull
-git pull heroku master
-npm install d-zone --no-optional
-ls
-ls -A
-npm install d-zone --no-optional
-ls
-ls -A
-cd ..
-ls
-ls -A
-ls -A1
-cd bagango-dzone/
-touch package.json
-npm install d-zone --no-optional
-ls
-nvim package.json 
-npm install d-zone --no-optional
-ls -A
-cd ..
-rm -rf bagango-dzone/
-mkdir bagango-dzone
-cd bagango-dzone/
-npm install d-zone
-ls
-ls -A
-node -v
-ls -A1
-ls
-npm -g install npm
-npm install -g d-zone
-ls
-npm install d-zone --no-optionals
-ls
-cd node
-ls
-npm install d-zone --no-optionals
-npm init
-npm install d-zone --no-optionals
-ls
-ls node_modules/
-mv node_modules/d-zone/* ./
-ls
-ls -A
-cat discord-config
-cat discord-config.js 
-cat discord-config-example.json 
-ls
-mv discord-config-example.json discord-config.json
-ls
-nvim discord-config.json 
-mv socket-config-example.json socket-config.json
-ls
-nvim socket-config.json 
-cd ..
 git clone https://github.com/heroku/node-js-getting-started.git
 cd node-js-getting-started/
 ls -A
@@ -498,3 +409,92 @@ ls
 ls hackerrank/
 nvim dotfiles/vim/.vimrc 
 rm /Users/chrislavoy/.local/share/nvim/swap/%Users%chrislavoy%dotfiles%vim%.vimrc.swp 
+ls exercism/
+cd exercism/
+exercism
+ls -A
+cd c
+ls- A
+ls -A
+cd hello-world/
+ls -A
+cat README.md 
+ls serc
+ls src/
+nvim src/hello_world.c
+ls
+cat makefile 
+nvim src/hello_world.c
+cat src/hello_world.h
+nvim README.md 
+make
+make
+python
+cd ../../
+cd lua/
+ls
+cd hello-world/
+ls
+nvim hello-world.lua 
+exit
+nvim
+nvim main.c 
+gcc ma
+gcc main.c 
+ls
+./a.out 
+ls -A
+rm main.c
+nvim main.go 
+rm main.go 
+ls -A
+rm a.out 
+ls
+ls -A
+nvim
+brew install thefuck
+fuck
+nvim dotfiles/bash/.bash_profile
+nvim dotfiles/bash/.bash_profile
+brew update && brew upgrade
+nvim dotfiles/vim/.vimrc 
+nvim dotfiles/vim/.vimrc 
+nvim dotfiles/vim/.vimrc 
+nvim dotfiles/vim/.vimrc 
+nvim dotfiles/vim/.vimrc 
+ls dotfiles/vim/
+ls -A dotfiles/vim
+nvim
+nvim dotfiles/vim/.vimrc
+nvim dotfiles/vim/.vimrc
+brew install llvm --with-clang
+brew cleanup
+brew doctor
+brew cask reinstall xquartz; brew prune;
+say Alexa, play thrash metal on spotify
+say Alexa, play thrash metal on spotify
+say "Alexa, run"
+brew update && brew upgrade
+ls dotfiles/
+cd dotfiles/
+git status
+git add .
+git status
+git commit -am "Added new things"
+git push
+htop
+cd
+brew update; brew upgrade
+fuck
+brew update && brew upgrade
+brew update && brew upgrade
+brew update && brew upgrade
+brew update && brew upgrade
+exit
+brew update && brew upgrade
+dotnet
+brew install dotnet
+brew update
+brew install openssl
+dotnet
+exit
