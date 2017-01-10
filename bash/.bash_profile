@@ -34,3 +34,5 @@ export PATH=$COCOS_X_ROOT:$PATH
 # Add environment variable COCOS_TEMPLATES_ROOT for cocos2d-x
 export COCOS_TEMPLATES_ROOT=/Users/chrislavoy/cocos2d-x/templates
 export PATH=$COCOS_TEMPLATES_ROOT:$PATH
+
+eval "$(thefuck --alias)"
