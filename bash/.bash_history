@@ -1,80 +1,3 @@
-git clone https://github.com/heroku/node-js-getting-started.git
-cd node-js-getting-started/
-ls -A
-cat .env 
-heroku  create
-git push heroku master
-heroku ps:scale web=1
-heroku open
-heroku logs --tail
-cat procfile
-ls
-cat Procfile 
-npm install
-heroku local web
-nvim index.js 
-nvim index.js 
-ls
-go get -u github.com/bwmarrin/discordgo
-cd ..
-rm -rf node-js-getting-started/
-ls
-cd
-brew update && brew upgrade
-ls
-brew update && brew upgrade
-cd $MYGO
-ls
-mkdir shopbot
-cd shopbot/
-ls
-nvim main.go
-ls
-mkdir vanilla
-nvim vanilla/bowling.go
-nvim vanilla/bowling_test.go
-go test -v
-cd vanilla/
-go test -v
-nvim vanilla/bowling_test.go
-nvim bowling.
-nvim bowling.go 
-nvim bowling_test.go 
-cd ..
-ls
-ls
-nvim main.go
-ls
-cd ../blenderServer/
-ls
-cat Dockerfile 
-ls Makefile 
-cat Makefile 
-ls -A
-cat .env 
-nvim .env
-nvim main
-nvim main.go 
-brew update && brew upgrade
-brew update && brew upgrade
-brew install python
-pip install --upgrade pip setuptools
-pip
-brew postinstall python
-exit
-cod Documents/Projects/cocos2d/firstgame/MyCppGame/
-cd Documents/Projects/cocos2d/firstgame/MyCppGame/
-cd Documents/Projects/cocos2d/firstgame/MyCppGame/
-nvim Classes/
-nvim Classes/
-nvim Classes/AppDelegate.cpp 
-brew update && brew upgrade
-git clone https://github.com/cocos2d/cocos2d-x.git
-cd cocos2d-x/
-python download-deps.py 
-git submodule update --init
-ls
-./setup.py 
 source /Users/chrislavoy/.bash_profile
 ls
 cd
@@ -497,4 +420,81 @@ brew install dotnet
 brew update
 brew install openssl
 dotnet
+exit
+nvim dotfiles/bash/
+cd dotfiles/bash/
+git status
+cd ..
+git status
+git add *
+git commit -am "Added to bash_profile"
+git push
+git status
+:q
+exit
+brew update && brew upgrade
+brew update && brew upgrade
+git sttasu
+git status
+cd /www/
+ls
+ls cuddlefish/
+ls js
+ls jumboRepo/
+ls
+cd cuddlefish/
+ls
+cd js/
+ls
+nvim game.js 
+cd
+ls
+ls dotfiles/
+ls dotfiles/vim/
+ls -A dotfiles/vim/
+cd /www/LAWLIPOPS/
+ls
+nvim main.go 
+exit
+cd /www/LAWLIPOPS/
+nvim main.go 
+exit
+brew update && brew upgrade
+ls
+mkdir classes
+mkdir classes/cse330
+cd classes/cse330/
+nvim notes.txt
+ls dotfiles/
+nvim
+nvim dotfiles/vim/.vimrc 
+:q
+ls
+brew update && brew upgrade
+brew update && brew upgrade
+brew update && brew upgrade
+brew update && brew upgrade
+brew install qt
+brew linkapps qt5
+brew install llvm --with-clang
+brew install --force llvm --with-clang
+brew linkapps llvm
+nvim
+nvim
+nvim
+nvim
+cd $MYGO
+ls
+ls
+go get -u -v github.com/therecipe/qt/cmd/...
+$GOPATH/bin/qtsetup
+cd $GOPATH 
+ls
+ls bin/
+./qtsetup
+qtsetup 
+nvim ~/dotfiles/bash/.bash_profile
+exit
+htop
+top
 exit
