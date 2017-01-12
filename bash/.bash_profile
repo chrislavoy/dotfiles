@@ -36,3 +36,5 @@ export COCOS_TEMPLATES_ROOT=/Users/chrislavoy/cocos2d-x/templates
 export PATH=$COCOS_TEMPLATES_ROOT:$PATH
 
 eval "$(thefuck --alias)"
+
+export QT_HOMEBREW=true
