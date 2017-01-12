@@ -125,6 +125,6 @@ Plug 'Slava/tern-meteor'
 call plug#end()
 
 autocmd VimEnter * Tagbar
-"autocmd VimEnter * NERDTree
-autocmd VimEnter * wincmd p
+autocmd VimEnter * NERDTree
+"autocmd VimEnter * wincmd p
 autocmd VimEnter * wincmd p
