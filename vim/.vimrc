@@ -78,6 +78,10 @@ function! Cond(cond, ...)
 	return a:cond ? opts : extend(opts, { 'on': [], 'for': [] })
 endfunction
 
+" deoplete-clang settings
+let g:deoplete#sources#clang#libclang_path = '/usr/local/opt/llvm/lib/libclang.dylib'
+let g:deoplete#sources#clang#clang_header = '/usr/local/opt/llvm/lib/clang/'
+
 " *** VIM-PLUG ***
 call plug#begin('~/.vim/plugged')
 
@@ -121,6 +125,7 @@ Plug 'tpope/vim-markdown'
 Plug 'tpope/vim-surround'
 Plug 'marijnh/tern_for_vim'
 Plug 'Slava/tern-meteor'
+Plug 'zchee/deoplete-jedi'
 
 call plug#end()
 
