@@ -38,3 +38,5 @@ export PATH=$COCOS_TEMPLATES_ROOT:$PATH
 eval "$(thefuck --alias)"
 
 export QT_HOMEBREW=true
+
+export AWS_REGION=us-west-1
