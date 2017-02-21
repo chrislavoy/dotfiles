@@ -2,8 +2,8 @@ syntax enable
 "set background=dark
 "let g:solarized_termcolors=256
 "colorscheme desert
-"colorscheme monokai
-colorscheme molokai
+colorscheme monokai
+"colorscheme molokai
 set nu
 set tabstop=4
 set shiftwidth=4
@@ -82,8 +82,12 @@ endfunction
 let g:deoplete#sources#clang#libclang_path = '/usr/local/opt/llvm/lib/libclang.dylib'
 let g:deoplete#sources#clang#clang_header = '/usr/local/opt/llvm/lib/clang/'
 
+" Python
+let python_highlight_all=1
+
 " *** VIM-PLUG ***
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.local/share/nvim/plugged')
+"call plug#begin('~/.vim/plugged') "FOR MAC
 
 Plug 'fatih/vim-go'
 Plug 'fatih/molokai'
@@ -126,10 +130,16 @@ Plug 'tpope/vim-surround'
 Plug 'marijnh/tern_for_vim'
 Plug 'Slava/tern-meteor'
 Plug 'zchee/deoplete-jedi'
+Plug 'vim-scripts/indentpython.vim'
+Plug 'nvie/vim-flake8'
+Plug 'jistr/vim-nerdtree-tabs'
+Plug 'tpope/vim-fugitive'
+Plug 'sickill/vim-monokai'
+"Plug 'tomasr/molokai'
 
 call plug#end()
 
-autocmd VimEnter * Tagbar
-autocmd VimEnter * NERDTree
+"autocmd VimEnter * Tagbar
+"autocmd VimEnter * NERDTree
 "autocmd VimEnter * wincmd p
-autocmd VimEnter * wincmd p
+"autocmd VimEnter * wincmd p
