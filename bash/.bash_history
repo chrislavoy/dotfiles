@@ -1,9 +1,3 @@
-git pull
-git commit -am "Merge"
-git push
-nvim main.go 
-nvim main.go 
-ls
 mv keywords.csv keywords.csv 
 mv keywords.csv keywords
 ls
@@ -498,3 +492,9 @@ go run main.go
 nvim main.go 
 brew update && brew upgrade && brew cleanup
 exit
+brew update && brew upgrade && brew cleanup
+nvim .vimrc
+cd dotfiles/
+git pull
+brew install zsh
+zsh
