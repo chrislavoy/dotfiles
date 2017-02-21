@@ -1,12 +1,17 @@
-syntax enable
-"set background=dark
-"let g:solarized_termcolors=256
+syntax on
+"let g:solarized_termtrans=1
 "colorscheme desert
 "colorscheme monokai
-colorscheme molokai
+"colorscheme molokai
+set background=dark
+colorscheme solarized
+let g:solarized_termcolors=256
+"let g:solarized_termtrans=1
 set nu
 set tabstop=4
 set shiftwidth=4
+set ruler
+set cursorline
 
 " Changed from 4000 for vim-gitgutter
 set updatetime=250
@@ -82,8 +87,12 @@ endfunction
 let g:deoplete#sources#clang#libclang_path = '/usr/local/opt/llvm/lib/libclang.dylib'
 let g:deoplete#sources#clang#clang_header = '/usr/local/opt/llvm/lib/clang/'
 
+" Python
+let python_highlight_all=1
+
 " *** VIM-PLUG ***
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.local/share/nvim/plugged')
+"call plug#begin('~/.vim/plugged') "FOR MAC
 
 Plug 'fatih/vim-go'
 Plug 'fatih/molokai'
@@ -126,10 +135,17 @@ Plug 'marijnh/tern_for_vim'
 Plug 'Slava/tern-meteor'
 Plug 'zchee/deoplete-jedi'
 Plug 'jelera/vim-javascript-syntax'
+Plug 'vim-scripts/indentpython.vim'
+Plug 'nvie/vim-flake8'
+Plug 'jistr/vim-nerdtree-tabs'
+Plug 'tpope/vim-fugitive'
+Plug 'sickill/vim-monokai'
+"Plug 'tomasr/molokai'
+Plug 'altercation/vim-colors-solarized'
 
 call plug#end()
 
-autocmd VimEnter * Tagbar
-autocmd VimEnter * NERDTree
+"autocmd VimEnter * Tagbar
+"autocmd VimEnter * NERDTree
 "autocmd VimEnter * wincmd p
-autocmd VimEnter * wincmd p
+"autocmd VimEnter * wincmd p
