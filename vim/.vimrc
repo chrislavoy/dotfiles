@@ -111,7 +111,6 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'sirver/ultisnips'
 Plug 'ervandew/supertab'
 Plug 'honza/vim-snippets'
-Plug 'marijnh/tern_for_vim'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'sickill/vim-monokai'
 Plug 'burnettk/vim-angular'
@@ -126,6 +125,7 @@ Plug 'tpope/vim-surround'
 Plug 'marijnh/tern_for_vim'
 Plug 'Slava/tern-meteor'
 Plug 'zchee/deoplete-jedi'
+Plug 'jelera/vim-javascript-syntax'
 
 call plug#end()
 
