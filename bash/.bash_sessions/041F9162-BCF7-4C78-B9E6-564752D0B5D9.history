@@ -1,3 +1,256 @@
+nvim main.c 
+gcc main.c 
+./a.out 
+nvim main.c 
+gcc main.c 
+nvim main.c 
+mv main.c q.h
+ls
+cp q.h proj-1.c
+ls
+nvim proj-1.c 
+nvim proj-1.c 
+gcc proj-1.c 
+ls
+./a.out 
+nvim proj-1.c 
+gcc proj-1.c 
+./a.out 
+nvim proj-1.c 
+gcc -g proj-1.c 
+gdb a.out
+gcc -g proj-1.c 
+gdb a.out
+sudo gdb a.out
+sudo gdb a.out
+gcc -S proj-1.c 
+ls
+cat proj-1.s 
+rm proj-1.s
+ls
+nvim q.h 
+gcc proj-1.c 
+./a.out
+nvim q.h 
+nvim q.h 
+cd ..
+ls
+rm -r part2
+ls
+mv part1/* .
+ls
+ls part1/
+rm -r part1/
+ls -A
+cd ..
+ls
+cd ..
+ls
+git init
+echo "# CSE330" >> README.md
+git add .
+git status
+git rm --cached project1/~\$E\ 330\ Project\ 1.docx 
+git rm --cached project1/CSE\ 330\ Project\ 1.docx 
+git rm --cached slides/*
+ls
+git status
+nvim .gitignore
+git status
+git add .gitignore 
+git status
+git rm .DS_Store 
+git status
+git rm --cached .DS_Store 
+git status
+ls -A
+git rm --cached .gitignore 
+nvim .git
+nvim .gitignore 
+git status
+git add .gitignore 
+git commit -am "Initial Commit"
+git remote add origin https://github.com/chrislavoy/CSE330.git
+git push -u origin master
+git status
+git pull
+git log
+git status
+cd ~/dotfiles/
+git status
+git add .
+git add *
+ls
+git status
+git add vim/.vim/plugged/
+git status
+git commit -am "Changed made"
+git push
+git status
+git push
+git pull
+exit
+cd Documents/classes/cse330/project1/code/
+ls
+la
+ls
+gcc -gWall proj-1.c 
+gcc -g -Wall proj-1.c 
+./a.out
+gcc -g -Wall proj-1.c 
+./a.out
+gcc -g -Wall proj-1.c 
+./a.out
+gcc -g -Wall proj-1.c 
+./a.out
+gcc -g -Wall proj-1.c 
+./a.out
+gcc -g -Wall proj-1.c 
+./a.out
+gcc -g -Wall proj-1.c 
+./a.out
+gcc -g -Wall proj-1.c 
+./a.out
+gcc -g -Wall proj-1.c 
+./a.out
+gcc -g -Wall proj-1.c 
+./a.out
+gcc -g -Wall proj-1.c 
+./a.out
+cd
+clear
+brew update && brew upgrade
+exit
+exit
+exit
+cd Documents/classes/cse330/
+git status
+git pull
+git log
+ls
+cd project1/code/
+ls
+exit
+htop
+brew install htop
+sudo htop
+go get github.com/PuerkitoBio/goquery
+clear
+go get -u github.com/PuerkitoBio/goquery
+exit
+cd /www/
+ls
+cd asuAppFinder/
+ls
+git status
+exit
+cd /www/
+ls
+mkdir /Users/chrislavoy/go/src/github.com/chrislavoy/AppFinder
+cp asuAppFinder /Users/chrislavoy/go/src/github.com/chrislavoy/AppFinder
+cp asuAppFinder/* /Users/chrislavoy/go/src/github.com/chrislavoy/AppFinder/
+cd $MYGO
+cd AP
+cd AppFinder/
+ls
+git status
+cd ..
+rm -rf AppFinder/
+ls
+ls
+git clone https://github.com/chrislavoy/asuAppFinder appFinder
+cd appFinder/
+ls
+nvim main.go 
+exit
+brew update && brew upgrade
+brew update && brew upgrade
+brew
+man brew
+brew clean
+brew doctor
+brew clean
+brew help
+brew config
+brew update && brew upgrade && brew cleanup
+ls
+cd /www/
+ls
+mkdir appMonsta
+cd appMonsta/
+ls
+nvim main.go
+nvim main.go
+cd ..
+mkdir asuAppFinder
+mv appMonsta/* asuAppFinder/
+ls appMonsta/
+ls asuAppFinder/
+rm -r appMonsta/
+cd asuAppFinder/
+ls -A
+nvim main.go 
+ls
+echo "# asuAppFinder" >> README.md
+git init
+git remote add origin https://github.com/chrislavoy/asuAppFinder.git
+git add .
+git status
+git commit -am "Initial Commit"
+git push -u origin master
+git pull
+git status
+nvim .gitignore
+git add .
+git status
+git commit -am "Added gitignore"
+git push
+nvim main.go 
+go run main.go 
+go get -u github.com/gocarina.gocsv
+go get -u github.com/gocarina/gocsv
+go run main.go 
+ls
+git pull
+nvim main.go 
+brew update && brew upgrade && brew cleanup
+go run main.go 
+ls
+brew install go
+ls
+cd
+brew update && brew upgrade
+brew cleanup
+cd Documents/classes/cse330/
+nvim lecture_notes.txt 
+nvim lecture_notes.txt 
+brew update && brew upgrade; brew cleanup
+brew update && brew upgrade && brew cleanup
+cd /Users/chrislavoy/go/src/github.com/chrislavoy/appFinder/
+ls
+git status
+ls .idea/
+rm .idea/
+rm -r .idea/
+ls
+git status
+git origin
+git list origin
+git --help
+git show origin
+ls
+nvim main.go 
+git status
+git add .
+git status
+git diff
+git dif main.go 
+git diff main.go
+nvim main.go 
+git commit -am "Added anti-keywords, fixed Google URL"
+git push
+git pull
+git status
 git pull
 git commit -am "Merge"
 git push
@@ -246,255 +499,4 @@ nvim q.h
 htop
 exit
 htop
-exit
-htop
-ls -A
-mv Downloads/satellite-dish-communication-hd-wallpaper.jpg Pictures/
-ls Downloads/ | grep wall
-ls Downloads/
-ls Downloads/ | grep .jpg
-mv Downloads/Wireframe-of-a-ball_www.WppShack.com_-e1424855942812.jpg  Pictures/
-ls Downloads/ | grep .jpg
-mv Downloads/blurred-background-18.jpg Pictures/
-mv Downloads/Landscape.png Pictures/
-mv Downloads/stock-photo-86987573.jpg Pictures/
-mv Downloads/stock-photo-102710297.jpg Pictures/
-mv Downloads/1457826383571.jpg Pictures/
-mv Downloads/abstract-mosaic-background.png Pictures/
-htop
-ls -A
-htop
-exit
-cd /Users/chrislavoy/go/src/github.com/chrislavoy/appFinder/
-echo add ASUS to constraints
-nvim main.go 
-exit
-cd /Users/chrislavoy/go/src/github.com/chrislavoy/appFinder/
-ls
-cd ../awsLambdaTest/
-ls
-ls
-cd ..
-ls
-cd appFinder/
-ls
-nvim csvCat.go
-;2A
-nvim csvCat.go
-ls
-mkdir tools
-mv csvCat.go tools/
-ls
-ls
-cd tools/
-nvim combineCSV,gi
-nvim combineCSV.go
-ls
-nvim csvCat.go 
-ls
-mv csvCat.go ../
-ls
-cd ..
-ls
-rm -r tools/
-ls
-ls
-ls ..
-cd ..
-ls
-mkdir csvCat
-mv appFinder/csvCat.go csvCat/main.go
-cd csvCat/
-ls
-nvim main.go 
-cd ..
-ls
-mkdir csvcat
-ls
-mv csvCat csvcat
-ls
-cd csvcat/
-ls
-mv main.go csvcat.go
-nvim csvcat.go 
-ls
-cd ..
-ls
-mv csvcat/csvcat.go appFinder/
-rm -r csvcat/
-ls
-cd appFinder/
-ls
-nvim main.go 
-ls
-mkdir tools
-mv csvcat.go tools/
-ls
-nvim main.go 
-go build main.go 
-ls -A
-./main 
-nvim constraints.txt 
-go build main.go 
-ls -A
-ls -A1
-./main 
-$ go get -u github.com/gobuffalo/buffalo/buffalo
-$ go get -u github.com/gobuffalo/buffalo/buffalo
-go get -u github.com/gobuffalo/buffalo/buffalo
-cd
-brew update && brew upgrade && brew cleanup
-brew update && brew upgrade && brew cleanup
-cd /Users/chrislavoy/go/src/github.com/chrislavoy/appFinder/
-nvim ma
-nvim main.go
-nvim main.go
-nvim main.go
-nvim main.go
-nvim main.go
-nvim main.go 
-cd /Users/chrislavoy/go/src/github.com/chrislavoy/appFinder/
-ls
-nvim ma
-nvim main.go 
-nvim main.go 
-nvim main.go 
-go build main.go 
-./main 
-cd ..
-ls
-cd
-ls
-cd Documents/classes/
-ls -A
-cd cse330/
-ls
-git status
-git add .
-git status
-git commit -am "Updated"
-git push
-git status
-ls -A
-ls
-cd project1/code/part1/
-nvim q.h 
-gcc -Wall proj-1.c 
-./a.out 
-:q
-nvim q.h 
-gcc -Wall proj-1.c 
-./a.out 
-exit
-brew update && brew upgrade && brew cleanup
-cd Documents/classes/cse330/project1/code/part1/
-git status
-git add .
-git commit -m "Attempt to fix"
-git push
-git pull
-ls
-git pull
-git status
-git commit
-git commit
-git commit -m "merge"
-git status
-git log
-git status
-git push
-exit
-ls
-cd /Users/chrislavoy/go/src/github.com/chrislavoy/appFinder/
-ls
-ls -A1
-ls tools/
-rm -r tools/
-ls
-ls -A1
-rm .DS_Store 
-git status
-nvim .gitignore 
-git status
-git status
-git add .
-git status
-fuck
-ls
-nvim ma
-ls
-nvim main.go 
-atom
-atom
-nvim ma
-nvim main.go 
-nvim main.go 
-nvim -O main.go main_aws.go
-git status
-git add .
-git status
-git commit
-git commit -m "Added main_aws.go for concurrency and writing to Amazon's DB"
-git push 
-ls
-git log
-git push
-nvim .git/config 
-git pull
-exit
-brew update && brew upgrade && brew cleanup
-cd /Users/chrislavoy/go/src/github.com/chrislavoy/appFinder/
-ls
-nvim main_aws.go 
-rm main
-ls -A
-ls -A1
-ls -A1
-cd ..
-ls
-ls awsLambdaTest/
-mkdir awsAppFinder
-mv appFinder/main_aws.go awsAppFinder/main.go
-ls
-cd awsAppFinder/
-ls
-cd main.go 
-nvim main.go 
-cd ../appFinder/
-git pull
-ls
-cp main_aws.go ../awsAppFinder/main.go 
-cp constraints.txt ../awsAppFinder/
-cp keywords.txt ../awsAppFinder/
-:w
-cd ../awsAppFinder/
-nvim main.go 
-nvim main.go 
-nvim main.go 
-nvim main.go 
-nvim main.go 
-nvim ../appFinder/main.go 
-exit
-ls
-ls -A
-exit
-ls
-cd go/src/github.com/chrislavoy/appFinder/
-cd
-cd go/src/github.com/chrislavoy/awsAppFinder/
-ls
-go run main.go 
-ls
-cd go/src/github.com/chrislavoy/appFinder/
-nvim main.go 
-exit
-cd go/src/github.com/chrislavoy/awsAppFinder/
-nvim main.go
-nvim main.go
-go run main.go 
-ls
-go run main.go 
-go run main.go 
-nvim main.go 
-brew update && brew upgrade && brew cleanup
 exit
