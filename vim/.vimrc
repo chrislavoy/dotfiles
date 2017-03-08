@@ -1,12 +1,12 @@
 syntax on
 "let g:solarized_termtrans=1
 "colorscheme desert
-"colorscheme monokai
+colorscheme monokai
 "colorscheme molokai
-set background=dark
-colorscheme solarized
-let g:solarized_termcolors=256
-"let g:solarized_termtrans=1
+"set background=dark
+"colorscheme solarized
+"let g:solarized_termcolors=256
+""let g:solarized_termtrans=1
 set nu
 set tabstop=4
 set shiftwidth=4
@@ -27,6 +27,7 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
 let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
+let g:syntastic_javascript_checkers = ['jshint']
 
 " Settings for neocomplete
 "let g:neocomplete#enable_at_startup = 1
@@ -39,8 +40,18 @@ let g:go_highlight_structs = 1
 let g:go_highlight_interfaces = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
+let g:go_fmt_command = "goimports"
 let g:go_list_type = "quickfix"
+
+" deoplete settings
 let g:deoplete#enable_at_startup = 1
+
+" deoplete-go settings
+let g:deoplete#sources#go#gocode_binary = $GOPATH.'/bin/gocode'
+
+" deoplete-clang settings
+let g:deoplete#sources#clang#libclang_path = '/usr/local/opt/llvm/lib/libclang.dylib'
+let g:deoplete#sources#clang#clang_header = '/usr/local/opt/llvm/lib/clang/'
 
 " Settings for NERDTree
 map <C-\> :NERDTreeToggle<CR>
@@ -62,13 +73,11 @@ let g:javascript_enable_domhtmlcss = 1
 "let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 " YouCompleteMe and UltiSnips compatibility, with the helper of supertab
 " (via http://stackoverflow.com/a/22253548/1626737)
-let g:SuperTabDefaultCompletionType    = '<C-n>'
-let g:SuperTabCrMapping                = 0
-let g:UltiSnipsExpandTrigger           = '<tab>'
-let g:UltiSnipsJumpForwardTrigger      = '<tab>'
-let g:UltiSnipsJumpBackwardTrigger     = '<s-tab>'
-let g:ycm_key_list_select_completion   = ['<C-j>', '<C-n>', '<Down>']
-let g:ycm_key_list_previous_completion = ['<C-k>', '<C-p>', '<Up>']
+"let g:SuperTabDefaultCompletionType    = '<C-n>'
+"let g:SuperTabCrMapping                = 0
+"let g:UltiSnipsExpandTrigger           = '<tab>'
+"let g:UltiSnipsJumpForwardTrigger      = '<tab>'
+"let g:UltiSnipsJumpBackwardTrigger     = '<s-tab>'
 
 " vim-javascript
 let g:javascript_plugin_jsdoc = 1
@@ -82,10 +91,6 @@ function! Cond(cond, ...)
 	let opts = get(a:000, 0, {})
 	return a:cond ? opts : extend(opts, { 'on': [], 'for': [] })
 endfunction
-
-" deoplete-clang settings
-let g:deoplete#sources#clang#libclang_path = '/usr/local/opt/llvm/lib/libclang.dylib'
-let g:deoplete#sources#clang#clang_header = '/usr/local/opt/llvm/lib/clang/'
 
 " Python
 let python_highlight_all=1
@@ -123,7 +128,6 @@ Plug 'honza/vim-snippets'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'sickill/vim-monokai'
 Plug 'burnettk/vim-angular'
-Plug 'pangloss/vim-javascript'
 Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'leafgarland/typescript-vim'
 Plug 'HerringtonDarkholme/yats.vim'
@@ -142,6 +146,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'sickill/vim-monokai'
 "Plug 'tomasr/molokai'
 Plug 'altercation/vim-colors-solarized'
+Plug 'vim-scripts/JavaScript-Indent'
+Plug 'moll/vim-node'
 
 call plug#end()
 
