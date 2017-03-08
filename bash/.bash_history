@@ -1,52 +1,3 @@
-mv keywords.csv keywords.csv 
-mv keywords.csv keywords
-ls
-mv antikeywords.csv antikeywords
-ls
-ls
-nvim main.go 
-nvim main.go 
-exit
-cd /Users/chrislavoy/go/src/github.com/chrislavoy/appFinder/
-excel results.csv 
-nvim results.csv 
-nvim keywords.csv
-nvim antikeywords.csv
-mv keywords keywords.txt
-mv antikeywords antikeywords.xt
-mv antikeywords.xt antikeywords.txt
-ls
-nvim keywords.txt 
-nvim results.csv 
-go run main.go 
-git status
-git add *
-git add .
-git status
-git commit -am "Added keyword files"
-git push
-nvim antikeywords.txt 
-git status
-git status
-git add .
-git commit -m "Removed old debug code"
-git push
-brew update && brew upgrade && brew cleanup
-brew update && brew upgrade && brew cleanup
-brew update && brew upgrade && brew cleanup
-ls
-mkdir test
-touch test/test.txt
-ls
-rm -rf test/
-ls
-ls
-cat results.csv | grep SSCASU
-cat results.csv
-ls
-nvim main.go 
-nvim keywords.txt 
-nvim main.go 
 mv antikeywords.txt constraints.txt
 ls
 nvim main.go 
@@ -498,3 +449,52 @@ cd dotfiles/
 git pull
 brew install zsh
 zsh
+ls
+go env
+env
+ls
+nvim
+echo $SHELL
+exit
+nvim main.go
+rm main.go 
+ls
+ls -A
+ls
+exit
+nvim
+exit
+ls -A
+ls -G
+ls -GFlash
+ls -G
+nvim .bashrc
+source .bashrc 
+ls
+ls -A
+ls -A1
+ls
+ls
+ls
+nvim .bashrc
+source .bashrc 
+exit
+ls
+ls
+xclip .bashrc 
+nvim .bash_profile
+rm .bashrc 
+exit
+zsh
+exit
+brewski
+exot
+exit
+ls
+brewski
+ls
+/bin/zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+exit
+nvim main.go
+exit
