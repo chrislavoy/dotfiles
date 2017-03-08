@@ -5,6 +5,7 @@ export ANDROID_HOME="/Users/chrislavoy/Library/Android/sdk"
 #export PATH=$PATH:/usr/local/Cellar/go/1.6.2/bin/
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+export GOBIN=$GOPATH/bin
 
 export FACEBOOK_KEY="1227119183985031"
 export FACEBOOK_SECRET="37a5b222db8324ddf14c0b0ea990eb71"
@@ -40,3 +41,6 @@ eval "$(thefuck --alias)"
 export QT_HOMEBREW=true
 
 export AWS_REGION=us-west-1
+
+alias ls="ls -G"
+alias brewski="brew update && brew upgrade && brew cleanup"
