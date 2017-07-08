@@ -2,7 +2,7 @@ syntax on
 "let g:solarized_termtrans=1
 "colorscheme desert
 colorscheme monokai
-color dracula
+"color dracula
 "colorscheme molokai
 "set background=dark
 "colorscheme solarized
@@ -149,8 +149,8 @@ Plug 'sickill/vim-monokai'
 "Plug 'tomasr/molokai'
 Plug 'altercation/vim-colors-solarized'
 Plug 'vim-scripts/JavaScript-Indent'
-Plug 'moll/vim-node', { 'for': 'javascript' }
-Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'moll/vim-node', { 'for': ['javascript', 'json', 'typescript', 'node'] }
+"Plug 'dracula/vim' ", { 'as': 'dracula' }
 
 call plug#end()
 
