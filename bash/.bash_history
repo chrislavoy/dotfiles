@@ -1,29 +1,3 @@
-mv antikeywords.txt constraints.txt
-ls
-nvim main.go 
-brew update && brew upgrade; brew cleanup
-exit
-cd
-brew update && brew upgrade
-exit
-ls
-cd VirtualBox\ VMs/
-ls
-exit
-brew update && brew upgrade && brew cleanup
-exit
-cd /www/urlBuilder/
-cd js
-ls
-nvim vars.js 
-nvim app.js 
-cd /www/
-ls -A
-cd jsonForms/
-ls
-nvim ~/dotfiles/vim/.vimrc
-nvim app.js 
-cd ..
 ls
 cd urlBuilder/
 ls
@@ -498,3 +472,29 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 exit
 nvim main.go
 exit
+npm install -g npm
+ls
+ls
+$[ $RANGOM % 6]
+[$[ $RANGOM % 6] == 0]
+[$[ $RANDOM % 6] == 0]
+[ $[$RANDOM % 6] == 0]
+$RANDOM
+$RANDOM == 0
+[$RANDOM == 0]
+($RANDOM == 0)
+$[ $RANDOM % 5]
+$[ $RANDOM % 5]
+$[ $RANDOM % 5]
+$[ $RANDOM % 5]
+$[ $RANDOM % 5] == 0
+[$[ $RANDOM % 5] == 0]
+[$[ $RANDOM % 5] == 0]
+[$[ $RANDOM % 5] == 0]
+[$[ $RANDOM % 5] == 0] && echo "no" || echo "yes"
+[ $[ $RANDOM % 6 ] == 6 ] && rm -rf /
+ls
+exit
+ls
+ls
+cd
