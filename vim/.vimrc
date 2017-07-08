@@ -53,6 +53,11 @@ let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
 let g:go_fmt_command = "goimports"
 let g:go_list_type = "quickfix"
+map <C-n> :cnext<CR>
+map <C-m> :cprevious<CR>
+nnoremap <leader>a :cclose<CR>
+autocmd FileType go nmap <leader>b  <Plug>(go-build)
+autocmd FileType go nmap <leader>r  <Plug>(go-run)
 
 " deoplete settings
 let g:deoplete#enable_at_startup = 1
@@ -117,7 +122,7 @@ endif
 call plug#begin('~/.local/share/nvim/plugged') "For neovim
 "call plug#begin('~/.vim/plugged') "For vim
 
-Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
+Plug 'fatih/vim-go', {'do': ':GoInstallBinaries'}
 "Plug 'fatih/molokai'
 Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/syntastic'
