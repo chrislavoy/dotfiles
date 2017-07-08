@@ -2,6 +2,7 @@ syntax on
 "let g:solarized_termtrans=1
 "colorscheme desert
 colorscheme monokai
+color dracula
 "colorscheme molokai
 "set background=dark
 "colorscheme solarized
@@ -12,6 +13,7 @@ set tabstop=4
 set shiftwidth=4
 set ruler
 set cursorline
+set mouse=a
 
 " Changed from 4000 for vim-gitgutter
 set updatetime=250
@@ -99,13 +101,13 @@ let python_highlight_all=1
 call plug#begin('~/.local/share/nvim/plugged')
 "call plug#begin('~/.vim/plugged') "FOR MAC
 
-Plug 'fatih/vim-go'
+Plug 'fatih/vim-go', { 'for': 'go' }
 Plug 'fatih/molokai'
 Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/syntastic'
 "Plug 'Shougo/neocomplete', Cond(has('mac'))
 Plug 'Shougo/deoplete.nvim', {'do': ':UpdateRemotePlugins'}
-Plug 'zchee/deoplete-go', { 'do': 'make'}
+Plug 'zchee/deoplete-go', { 'do': 'make', 'for': 'go'}
 Plug 'zchee/deoplete-clang'
 Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'
@@ -118,7 +120,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'pangloss/vim-javascript'
+Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
 Plug 'terryma/vim-multiple-cursors'
 "Plug 'valloric/youcompleteme'
 "Plug 'rdnetto/YCM-Generator', {'branch' : 'stable'}
@@ -127,16 +129,16 @@ Plug 'ervandew/supertab'
 Plug 'honza/vim-snippets'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'sickill/vim-monokai'
-Plug 'burnettk/vim-angular'
-Plug 'othree/javascript-libraries-syntax.vim'
-Plug 'leafgarland/typescript-vim'
-Plug 'HerringtonDarkholme/yats.vim'
-Plug 'elzr/vim-json'
+Plug 'burnettk/vim-angular', { 'for': 'javascript' }
+Plug 'othree/javascript-libraries-syntax.vim', { 'for': 'javascript' }
+Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
+Plug 'HerringtonDarkholme/yats.vim', { 'for': 'typescript' }
+Plug 'elzr/vim-json', { 'for': ['javascript', 'json', 'typescript'] }
 Plug 'groenewege/vim-less'
 Plug 'tpope/vim-markdown'
 Plug 'tpope/vim-surround'
-Plug 'marijnh/tern_for_vim'
-Plug 'Slava/tern-meteor'
+Plug 'marijnh/tern_for_vim', { 'for': 'javascript' }
+Plug 'Slava/tern-meteor', { 'for': 'javascript' }
 Plug 'zchee/deoplete-jedi'
 Plug 'jelera/vim-javascript-syntax'
 Plug 'vim-scripts/indentpython.vim'
@@ -147,7 +149,8 @@ Plug 'sickill/vim-monokai'
 "Plug 'tomasr/molokai'
 Plug 'altercation/vim-colors-solarized'
 Plug 'vim-scripts/JavaScript-Indent'
-Plug 'moll/vim-node'
+Plug 'moll/vim-node', { 'for': 'javascript' }
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 call plug#end()
 
