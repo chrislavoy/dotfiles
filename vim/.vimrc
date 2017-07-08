@@ -1,19 +1,11 @@
 syntax on
-"let g:solarized_termtrans=1
-"colorscheme desert
-colorscheme monokai
-"color dracula
-"colorscheme molokai
-"set background=dark
-"colorscheme solarized
-"let g:solarized_termcolors=256
-""let g:solarized_termtrans=1
 set nu
 set tabstop=4
 set shiftwidth=4
 set ruler
 set cursorline
 set mouse=a
+set termguicolors
 
 " Changed from 4000 for vim-gitgutter
 set updatetime=250
@@ -101,8 +93,8 @@ let python_highlight_all=1
 call plug#begin('~/.local/share/nvim/plugged')
 "call plug#begin('~/.vim/plugged') "FOR MAC
 
-Plug 'fatih/vim-go', { 'for': 'go' }
-Plug 'fatih/molokai'
+Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
+"Plug 'fatih/molokai'
 Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/syntastic'
 "Plug 'Shougo/neocomplete', Cond(has('mac'))
@@ -128,7 +120,7 @@ Plug 'sirver/ultisnips'
 Plug 'ervandew/supertab'
 Plug 'honza/vim-snippets'
 Plug 'jistr/vim-nerdtree-tabs'
-Plug 'sickill/vim-monokai'
+"Plug 'sickill/vim-monokai'
 Plug 'burnettk/vim-angular', { 'for': 'javascript' }
 Plug 'othree/javascript-libraries-syntax.vim', { 'for': 'javascript' }
 Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
@@ -139,22 +131,35 @@ Plug 'tpope/vim-markdown'
 Plug 'tpope/vim-surround'
 Plug 'marijnh/tern_for_vim', { 'for': 'javascript' }
 Plug 'Slava/tern-meteor', { 'for': 'javascript' }
-Plug 'zchee/deoplete-jedi'
-Plug 'jelera/vim-javascript-syntax'
-Plug 'vim-scripts/indentpython.vim'
-Plug 'nvie/vim-flake8'
+Plug 'zchee/deoplete-jedi', { 'for': 'python' }
+Plug 'jelera/vim-javascript-syntax', { 'for': 'javascript' }
+Plug 'vim-scripts/indentpython.vim', { 'for': 'python' }
+Plug 'nvie/vim-flake8', { 'for': 'python' }
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'tpope/vim-fugitive'
-Plug 'sickill/vim-monokai'
+"Plug 'sickill/vim-monokai'
 "Plug 'tomasr/molokai'
-Plug 'altercation/vim-colors-solarized'
-Plug 'vim-scripts/JavaScript-Indent'
+"Plug 'altercation/vim-colors-solarized'
+Plug 'vim-scripts/JavaScript-Indent', { 'for': 'javascript' }
 Plug 'moll/vim-node', { 'for': ['javascript', 'json', 'typescript', 'node'] }
-"Plug 'dracula/vim' ", { 'as': 'dracula' }
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 call plug#end()
+
+color dracula
 
 "autocmd VimEnter * Tagbar
 "autocmd VimEnter * NERDTree
 "autocmd VimEnter * wincmd p
 "autocmd VimEnter * wincmd p
+
+" Old Settings
+"let g:solarized_termtrans=1
+"colorscheme desert
+"colorscheme monokai
+"color dracula
+"colorscheme molokai
+"set background=dark
+"colorscheme solarized
+"let g:solarized_termcolors=256
+""let g:solarized_termtrans=1
