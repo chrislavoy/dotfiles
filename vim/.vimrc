@@ -1,4 +1,3 @@
-syntax on
 set nu
 set tabstop=4
 set shiftwidth=4
@@ -6,6 +5,7 @@ set ruler
 set cursorline
 set mouse=a
 set termguicolors
+set backspace=2
 
 " Changed from 4000 for vim-gitgutter
 set updatetime=250
@@ -24,7 +24,24 @@ let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
 let g:syntastic_javascript_checkers = ['jshint']
 
 " Settings for neocomplete
-"let g:neocomplete#enable_at_startup = 1
+if !has('nvim')
+	let g:neocomplete#enable_at_startup = 1
+	let g:neocomplete#enable_smart_case = 1
+
+	" Recommended key-mappings.
+	" <CR>: close popup and save indent.
+	inoremap <silent> <CR> <C-r>=<SID>my_cr_function()<CR>
+	function! s:my_cr_function()
+  		return (pumvisible() ? "\<C-y>" : "" ) . "\<CR>"
+  		" For no inserting <CR> key.
+  		"return pumvisible() ? "\<C-y>" : "\<CR>"
+	endfunction
+	" <TAB>: completion.
+	inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
+	" <C-h>, <BS>: close popup and delete backword char.
+	inoremap <expr><C-h> neocomplete#smart_close_popup()."\<C-h>"
+	inoremap <expr><BS> neocomplete#smart_close_popup()."\<C-h>"
+endif
 
 " Settings for vim-go
 let g:go_highlight_functions = 1
@@ -50,7 +67,7 @@ let g:deoplete#sources#clang#clang_header = '/usr/local/opt/llvm/lib/clang/'
 " Settings for NERDTree
 map <C-\> :NERDTreeToggle<CR>
 
-" Settings for tagbat
+" Settings for tagbar
 nmap <F8> :TagbarToggle<CR>
 
 " Settings for vim-airline
@@ -90,17 +107,24 @@ endfunction
 let python_highlight_all=1
 
 " *** VIM-PLUG ***
-call plug#begin('~/.local/share/nvim/plugged')
-"call plug#begin('~/.vim/plugged') "FOR MAC
+" Auto-install of Vim-Plug
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+call plug#begin('~/.local/share/nvim/plugged') "For neovim
+"call plug#begin('~/.vim/plugged') "For vim
 
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 "Plug 'fatih/molokai'
 Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/syntastic'
-"Plug 'Shougo/neocomplete', Cond(has('mac'))
-Plug 'Shougo/deoplete.nvim', {'do': ':UpdateRemotePlugins'}
-Plug 'zchee/deoplete-go', { 'do': 'make', 'for': 'go'}
-Plug 'zchee/deoplete-clang'
+Plug 'Shougo/neocomplete', Cond(!has('nvim'), {'do': ':NeoCompleteEnable'})
+Plug 'Shougo/deoplete.nvim', Cond(has('nvim'), {'do': ':UpdateRemotePlugins'})
+Plug 'zchee/deoplete-go', Cond(has('nvim'), {'for': 'go', 'do': 'make'})
+Plug 'zchee/deoplete-clang', Cond(has('nvim'), {'for': ['c', 'cpp', 'h']})
 Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'
 Plug 'jiangmiao/auto-pairs'
@@ -163,3 +187,4 @@ color dracula
 "colorscheme solarized
 "let g:solarized_termcolors=256
 ""let g:solarized_termtrans=1
+"syntax on
