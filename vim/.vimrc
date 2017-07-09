@@ -5,7 +5,6 @@ set ruler
 set cursorline
 set mouse=a
 set termguicolors
-set backspace=2
 
 " Changed from 4000 for vim-gitgutter
 set updatetime=250
@@ -76,7 +75,7 @@ map <C-\> :NERDTreeToggle<CR>
 nmap <F8> :TagbarToggle<CR>
 
 " Settings for vim-airline
-"let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts = 1
 "let g:airline#extensions#tabline#enabled = 1
 set laststatus=2
 
@@ -123,7 +122,6 @@ call plug#begin('~/.local/share/nvim/plugged') "For neovim
 "call plug#begin('~/.vim/plugged') "For vim
 
 Plug 'fatih/vim-go', {'do': ':GoInstallBinaries'}
-"Plug 'fatih/molokai'
 Plug 'airblade/vim-gitgutter'
 Plug 'scrooloose/syntastic'
 Plug 'Shougo/neocomplete', Cond(!has('nvim'), {'do': ':NeoCompleteEnable'})
@@ -139,17 +137,13 @@ Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-surround'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
 Plug 'terryma/vim-multiple-cursors'
-"Plug 'valloric/youcompleteme'
-"Plug 'rdnetto/YCM-Generator', {'branch' : 'stable'}
 Plug 'sirver/ultisnips'
 Plug 'ervandew/supertab'
 Plug 'honza/vim-snippets'
 Plug 'jistr/vim-nerdtree-tabs'
-"Plug 'sickill/vim-monokai'
 Plug 'burnettk/vim-angular', { 'for': 'javascript' }
 Plug 'othree/javascript-libraries-syntax.vim', { 'for': 'javascript' }
 Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
@@ -165,17 +159,19 @@ Plug 'jelera/vim-javascript-syntax', { 'for': 'javascript' }
 Plug 'vim-scripts/indentpython.vim', { 'for': 'python' }
 Plug 'nvie/vim-flake8', { 'for': 'python' }
 Plug 'jistr/vim-nerdtree-tabs'
-Plug 'tpope/vim-fugitive'
-"Plug 'sickill/vim-monokai'
-"Plug 'tomasr/molokai'
-"Plug 'altercation/vim-colors-solarized'
 Plug 'vim-scripts/JavaScript-Indent', { 'for': 'javascript' }
 Plug 'moll/vim-node', { 'for': ['javascript', 'json', 'typescript', 'node'] }
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-fugitive'
+Plug 'octol/vim-cpp-enhanced-highlight'
 
 call plug#end()
 
 color dracula
+
+runtime! plugin/sensible.vim 
+set scrolloff=0
 
 "autocmd VimEnter * Tagbar
 "autocmd VimEnter * NERDTree
@@ -193,3 +189,13 @@ color dracula
 "let g:solarized_termcolors=256
 ""let g:solarized_termtrans=1
 "syntax on
+"set backspace=2"
+
+" Old Plugins
+"Plug 'fatih/molokai'
+"Plug 'vim-airline/vim-airline-themes'
+"Plug 'valloric/youcompleteme'
+"Plug 'rdnetto/YCM-Generator', {'branch' : 'stable'}
+"Plug 'sickill/vim-monokai'
+"Plug 'tomasr/molokai'
+"Plug 'altercation/vim-colors-solarized'
