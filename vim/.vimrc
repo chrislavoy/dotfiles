@@ -110,6 +110,13 @@ endfunction
 " Python
 let python_highlight_all=1
 
+" CPP Enhanced Highlight
+let g:cpp_class_scope_highlight = 1
+let g:cpp_member_variable_highlight = 1
+let g:cpp_class_decl_highlight = 1
+"let g:cpp_experimental_simple_template_highlight = 1
+"let g:cpp_concepts_highlight = 1
+
 " *** VIM-PLUG ***
 " Auto-install of Vim-Plug
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -165,6 +172,8 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-fugitive'
 Plug 'octol/vim-cpp-enhanced-highlight'
+" Testing
+Plug 'vim-scripts/c.vim'
 
 call plug#end()
 
@@ -173,9 +182,9 @@ color dracula
 runtime! plugin/sensible.vim 
 set scrolloff=0
 
-"autocmd VimEnter * Tagbar
-"autocmd VimEnter * NERDTree
-"autocmd VimEnter * wincmd p
+autocmd VimEnter * Tagbar
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
 "autocmd VimEnter * wincmd p
 
 " Old Settings
