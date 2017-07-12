@@ -1,6 +1,4 @@
 ls
-cd urlBuilder/
-ls
 ls js/
 nvim js/app.js 
 nvim js/vars.js 
@@ -498,3 +496,5 @@ exit
 ls
 ls
 cd
+curl --limit-rate 1200K netham45.com/test.txt
+exit
