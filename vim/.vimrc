@@ -62,11 +62,14 @@ autocmd FileType go nmap <leader>r  <Plug>(go-run)
 let g:deoplete#enable_at_startup = 1
 
 " deoplete-go settings
-let g:deoplete#sources#go#gocode_binary = $GOPATH.'/bin/gocode'
+let g:deoplete#sources#go#gocode_binary = '/home/chris/go/bin/gocode'
+"let g:deoplete#sources#go#gocode_binary = $GOPATH.'/bin/gocode'
 
 " deoplete-clang settings
-let g:deoplete#sources#clang#libclang_path = '/usr/local/opt/llvm/lib/libclang.dylib'
-let g:deoplete#sources#clang#clang_header = '/usr/local/opt/llvm/lib/clang/'
+"let g:deoplete#sources#clang#libclang_path = '/usr/local/opt/llvm/lib/libclang.dylib'
+let g:deoplete#sources#clang#libclang_path = '/usr/lib64/libclang.so.4'
+"let g:deoplete#sources#clang#clang_header = '/usr/local/opt/llvm/lib/clang/'
+let g:deoplete#sources#clang#clang_header = '/usr/lib64/clang/'
 
 " Settings for NERDTree
 map <C-\> :NERDTreeToggle<CR>
@@ -125,8 +128,8 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-call plug#begin('~/.local/share/nvim/plugged') "For neovim
-"call plug#begin('~/.vim/plugged') "For vim
+"call plug#begin('~/.local/share/nvim/plugged') "For neovim
+call plug#begin('~/.vim/plugged') "For vim
 
 Plug 'fatih/vim-go', {'do': ':GoInstallBinaries'}
 Plug 'airblade/vim-gitgutter'
@@ -169,23 +172,26 @@ Plug 'jistr/vim-nerdtree-tabs'
 Plug 'vim-scripts/JavaScript-Indent', { 'for': 'javascript' }
 Plug 'moll/vim-node', { 'for': ['javascript', 'json', 'typescript', 'node'] }
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'crusoexia/vim-monokai'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-fugitive'
 Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'uguu-org/vim-matrix-screensaver'
 " Testing
 Plug 'vim-scripts/c.vim'
 
 call plug#end()
 
-color dracula
+"color dracula
+color monokai
 
 runtime! plugin/sensible.vim 
 set scrolloff=0
 
-autocmd VimEnter * Tagbar
-autocmd VimEnter * NERDTree
-autocmd VimEnter * wincmd p
+"autocmd VimEnter * Tagbar
+"autocmd VimEnter * NERDTree
 "autocmd VimEnter * wincmd p
+""autocmd VimEnter * wincmd p
 
 " Old Settings
 "let g:solarized_termtrans=1
