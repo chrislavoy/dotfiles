@@ -2,7 +2,7 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/chrislavoy/.oh-my-zsh
+export ZSH=/home/chris/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -51,15 +51,15 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew aws encode64 jsontools sudo lol web-search zsh-syntax-highlighting)
+plugins=(git aws encode64 jsontools sudo lol web-search zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export MYGO=~/go/src/github.com/chrislavoy/
+#export MYGO=~/go/src/github.com/chrislavoy/
 #export GOPATH=~/go/src/github.com/chrislavoy/
-export GOROOT="/usr/local/Cellar/go/1.8.3/libexec"
+#export GOROOT="/usr/local/Cellar/go/1.8.3/libexec"
 # export MANPATH="/usr/local/man:$MANPATH"
 eval "$(thefuck --alias)"
 # You may need to manually set your language environment
@@ -91,6 +91,7 @@ alias zshrc="nvim ~/.zshrc"
 # alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias brewski="brew update && brew upgrade && brew cleanup"
 alias vimrc="vim ~/.vimrc"
-alias nvimrc="nvim ~/.vimrc"
+alias nvimrc="nvim ~/.config/nvim/init.vim"
 
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/chris/zsh-stuff/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
