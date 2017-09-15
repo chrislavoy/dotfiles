@@ -1,10 +1,11 @@
 set nu
+set relativenumber
 set tabstop=4
 set shiftwidth=4
 set ruler
-set cursorline
+"set cursorline
 set mouse=a
-set termguicolors
+"set termguicolors
 
 " Changed from 4000 for vim-gitgutter
 set updatetime=250
@@ -128,8 +129,8 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-"call plug#begin('~/.local/share/nvim/plugged') "For neovim
-call plug#begin('~/.vim/plugged') "For vim
+call plug#begin('~/.local/share/nvim/plugged') "For neovim
+"call plug#begin('~/.vim/plugged') "For vim
 
 Plug 'fatih/vim-go', {'do': ':GoInstallBinaries'}
 Plug 'airblade/vim-gitgutter'
@@ -179,11 +180,18 @@ Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'uguu-org/vim-matrix-screensaver'
 " Testing
 Plug 'vim-scripts/c.vim'
+Plug 'lervag/vimtex'
+Plug 'xuhdev/vim-latex-live-preview'
 
 call plug#end()
 
 "color dracula
 color monokai
+"set background=dark
+"color desert
+
+highlight Normal ctermbg=none
+highlight NonText ctermbg=none
 
 runtime! plugin/sensible.vim 
 set scrolloff=0
