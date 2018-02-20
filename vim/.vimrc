@@ -68,7 +68,8 @@ let g:deoplete#sources#go#gocode_binary = '/home/chris/go/bin/gocode'
 
 " deoplete-clang settings
 "let g:deoplete#sources#clang#libclang_path = '/usr/local/opt/llvm/lib/libclang.dylib'
-let g:deoplete#sources#clang#libclang_path = '/usr/lib64/libclang.so.4'
+"let g:deoplete#sources#clang#libclang_path = '/usr/lib64/libclang.so.4'
+let g:deoplete#sources#clang#libclang_path = '/usr/lib/libclang.so'
 "let g:deoplete#sources#clang#clang_header = '/usr/local/opt/llvm/lib/clang/'
 let g:deoplete#sources#clang#clang_header = '/usr/lib64/clang/'
 
@@ -185,8 +186,8 @@ Plug 'xuhdev/vim-latex-live-preview'
 
 call plug#end()
 
-"color dracula
-color monokai
+color dracula
+"color monokai
 "set background=dark
 "color desert
 
