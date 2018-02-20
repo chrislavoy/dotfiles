@@ -1,11 +1,9 @@
-set nu
-set relativenumber
+set relativenumber nu
 set tabstop=4
 set shiftwidth=4
 set ruler
-"set cursorline
+set cursorline
 set mouse=a
-"set termguicolors
 
 " Changed from 4000 for vim-gitgutter
 set updatetime=250
@@ -64,14 +62,15 @@ let g:deoplete#enable_at_startup = 1
 
 " deoplete-go settings
 let g:deoplete#sources#go#gocode_binary = '/home/chris/go/bin/gocode'
-"let g:deoplete#sources#go#gocode_binary = $GOPATH.'/bin/gocode'
 
 " deoplete-clang settings
-"let g:deoplete#sources#clang#libclang_path = '/usr/local/opt/llvm/lib/libclang.dylib'
-"let g:deoplete#sources#clang#libclang_path = '/usr/lib64/libclang.so.4'
 let g:deoplete#sources#clang#libclang_path = '/usr/lib/libclang.so'
-"let g:deoplete#sources#clang#clang_header = '/usr/local/opt/llvm/lib/clang/'
+" Other possible path locations:
+"  '/usr/local/opt/llvm/lib/libclang.dylib'
+"  '/usr/lib64/libclang.so.4'
 let g:deoplete#sources#clang#clang_header = '/usr/lib64/clang/'
+" Other possible path locations:
+"  '/usr/local/opt/llvm/lib/clang/'
 
 " Settings for NERDTree
 map <C-\> :NERDTreeToggle<CR>
@@ -130,8 +129,13 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
-call plug#begin('~/.local/share/nvim/plugged') "For neovim
-"call plug#begin('~/.vim/plugged') "For vim
+if !has('nvim')
+	let $plug_string = '~/.vim/plugged' "For neovim
+else 
+	let $plug_string = '~/.local/share/nvim/plugged' "For vim
+endif
+
+call plug#begin($plug_string)
 
 Plug 'fatih/vim-go', {'do': ':GoInstallBinaries'}
 Plug 'airblade/vim-gitgutter'
