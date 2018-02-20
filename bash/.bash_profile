@@ -44,3 +44,5 @@ export AWS_REGION=us-west-1
 
 alias ls="ls -G"
 alias brewski="brew update && brew upgrade && brew cleanup"
+
+gophersay | lolcat
