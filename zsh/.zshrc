@@ -1,14 +1,14 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/home/chris/.oh-my-zsh
+  export ZSH=/home/chris/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-#ZSH_THEME="robbyrussell"
-ZSH_THEME="dracula"
+ZSH_THEME="robbyrussell"
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -51,17 +51,14 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git aws encode64 jsontools sudo lol web-search zsh-syntax-highlighting)
+plugins=(git zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-#export MYGO=~/go/src/github.com/chrislavoy/
-#export GOPATH=~/go/src/github.com/chrislavoy/
-#export GOROOT="/usr/local/Cellar/go/1.8.3/libexec"
 # export MANPATH="/usr/local/man:$MANPATH"
-eval "$(thefuck --alias)"
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
@@ -72,10 +69,10 @@ eval "$(thefuck --alias)"
 #   export EDITOR='mvim'
 # fi
 
-export EDITOR='vim'
+export EDITOR="nvim"
 
 # Compilation flags
-# export ARCHFLAGS="-arch x86_64"
+export ARCHFLAGS="-arch x86_64"
 
 # ssh
 export SSH_KEY_PATH="~/.ssh/rsa_id"
@@ -86,12 +83,32 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="nvim ~/.zshrc"
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
 alias zshrc="nvim ~/.zshrc"
-# alias ohmyzsh="nvim ~/.oh-my-zsh"
-alias brewski="brew update && brew upgrade && brew cleanup"
-alias vimrc="vim ~/.vimrc"
 alias nvimrc="nvim ~/.config/nvim/init.vim"
+alias i3config="nvim ~/.config/i3/config"
+alias alacrittyrc="nvim ~/.config/alacritty/alacritty.yml"
 
-#source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /home/chris/zsh-stuff/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export QT_VERSION="5.9.2"
+export QT_DIR="$HOME/Qt5.9.2"
+export QT_STUB=false
+export QT_DEBUG=false
+export QT_PKG_CONFIG=true
+
+export TESSDATA_PREFIX=/usr/share/
+
+# Functions
+backup() {
+	cp $1 $1.backup
+}
+
+putback() {
+	cp $1.backup $1
+}
+
+lookbusy() {
+	cat /dev/urandom | base64
+}
+
+export PATH=$HOME/bin:$PATH
