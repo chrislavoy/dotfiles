@@ -8,6 +8,7 @@
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="robbyrussell"
+#ZSH_THEME="agnoster"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -51,7 +52,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting)
+plugins=(git zsh-syntax-highlighting colored-man-pages zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -89,6 +90,7 @@ alias zshrc="nvim ~/.zshrc"
 alias nvimrc="nvim ~/.config/nvim/init.vim"
 alias i3config="nvim ~/.config/i3/config"
 alias alacrittyrc="nvim ~/.config/alacritty/alacritty.yml"
+alias af="sudo apt-fast"
 
 export QT_VERSION="5.9.2"
 export QT_DIR="$HOME/Qt5.9.2"
