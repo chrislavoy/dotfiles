@@ -2,22 +2,27 @@
 # May use this later
 #declare package_manager
 
-if uname -v | grep Ubuntu > /dev/null; then
+if uname -v | grep Ubuntu > /dev/null || command -v apt-get > /dev/null; then
 	#package_manager="apt-get install"
 	# TODO: Add to this list if needed
+	sudo apt-get update
+	sudo apt-get -y upgrade
 	sudo apt-get install git git-core wget curl gcc python python3 vim zsh software-properties-common python-dev python-pip python3-dev python3-pip fonts-powerline
 
 	chsh -s $(which zsh)
 
-	# Install neovim
-	sudo add-apt-repository ppa:neovim-ppa/stable
-	sudo apt-get update
-	sudo apt-get install neovim
+	# Add neovim ppa if needed
+	if ! grep -q "^deb .*neovim-ppa/stable" /etc/apt/sources.list /etc/apt/sources.list.d/*; then
+		sudo add-apt-repository ppa:neovim-ppa/stable
+	fi
 
 	# Install apt-fast
-	sudo add-apt-repository ppa:apt-fast/stable
+	if ! grep -q "^deb .*apt-fast/stable" /etc/apt/sources.list /etc/apt/sources.list.d/*; then
+		sudo add-apt-repository ppa:apt-fast/stable
+	fi
+
 	sudo apt-get update
-	sudo apt-get -y install apt-fast
+	sudo apt-get -y install neovim apt-fast
 
 	# Install Oh-my-zsh
 	cd
@@ -32,15 +37,18 @@ elif uname -v | grep ARCH > /dev/null; then
 	# TODO: Add more here if needed
 fi
 
-echo "Enter email for git config: "
-read email
-echo "Enter name for git config: "
-read name
+if -z `git config --global user.email` || -z `git config --global user.name`; then
+	echo "Enter email for git config: "
+	read email
+	echo "Enter name for git config: "
+	read name
 
-git config --global push.default simple
-git config --global user.email "$email"
-git config --global user.name "$name"
+	git config --global push.default simple
+	git config --global user.email "$email"
+	git config --global user.name "$name"
 
-. ./deploy.sh
+fi
+
+. deploy.sh
 
 exit 0
