@@ -52,7 +52,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting colored-man-pages zsh-autosuggestions)
+plugins=(git colored-man-pages zsh-syntax-highlighting zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -90,7 +90,21 @@ alias zshrc="nvim ~/.zshrc"
 alias nvimrc="nvim ~/.config/nvim/init.vim"
 alias i3config="nvim ~/.config/i3/config"
 alias alacrittyrc="nvim ~/.config/alacritty/alacritty.yml"
-alias af="sudo apt-fast"
+
+# Set Aliases if running Ubuntu
+if uname -v | grep Ubuntu > /dev/null; then
+	# Set Aliases for apt-fast
+	if command -v apt-fast > /dev/null; then
+		alias af="sudo apt-fast"
+		alias afuu="af update && af -y upgrade"
+	else
+		alias ag="sudo apt-get"
+		alias aguu="ag update && ag -y upgrade"
+		# Backup aliases incase
+		alias af="echo apt-fast not installed; ag"
+		alias afuu="echo apt-fast not installed; aguu"
+	fi
+fi
 
 export QT_VERSION="5.9.2"
 export QT_DIR="$HOME/Qt5.9.2"

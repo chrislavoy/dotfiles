@@ -1,7 +1,9 @@
 #!/bin/bash
 # Deploy Alacritty
-cp alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
-echo "Deployed alacritty"
+if command -v alacritty > /dev/null; then
+	cp alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
+	echo "Deployed alacritty"
+fi
 
 # Deploy NeoVim or Vim
 if command -v nvim >/dev/null; then
