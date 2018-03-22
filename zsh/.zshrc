@@ -92,7 +92,7 @@ alias i3config="nvim ~/.config/i3/config"
 alias alacrittyrc="nvim ~/.config/alacritty/alacritty.yml"
 
 # Set Aliases if running Ubuntu
-if uname -v | grep Ubuntu > /dev/null; then
+if command -v apt-get > /dev/null; then
 	# Set Aliases for apt-fast
 	if command -v apt-fast > /dev/null; then
 		alias af="sudo apt-fast"
