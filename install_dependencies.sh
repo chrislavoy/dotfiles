@@ -3,33 +3,49 @@
 #declare package_manager
 
 if uname -v | grep Ubuntu > /dev/null || command -v apt-get > /dev/null; then
+	echo "Detected Ubuntu"
 	#package_manager="apt-get install"
 	# TODO: Add to this list if needed
-	sudo apt-get update
-	sudo apt-get -y upgrade
-	sudo apt-get install git git-core wget curl gcc python python3 vim zsh software-properties-common python-dev python-pip python3-dev python3-pip fonts-powerline
-
-	chsh -s $(which zsh)
 
 	# Add neovim ppa if needed
 	if ! grep -q "^deb .*neovim-ppa/stable" /etc/apt/sources.list /etc/apt/sources.list.d/*; then
+		echo "Adding neovim-ppa/stable"
 		sudo add-apt-repository ppa:neovim-ppa/stable
+	else
+		echo "Skipping neovim repository"
 	fi
 
 	# Install apt-fast
 	if ! grep -q "^deb .*apt-fast/stable" /etc/apt/sources.list /etc/apt/sources.list.d/*; then
+		echo "Addomg apt-fast/stable"
 		sudo add-apt-repository ppa:apt-fast/stable
+	else
+		echo "Skipping apt-fast repository"
 	fi
 
-	sudo apt-get update
-	sudo apt-get -y install neovim apt-fast
+	echo "Updating and installing packages"
+	sudo apt-get -qq update
+	sudo apt-get -qq upgrade
+	sudo apt-get -qq install git git-core wget curl gcc python python3 vim zsh software-properties-common python-dev python-pip python3-dev python3-pip fonts-powerline neovim apt-fast
+
+	if [[ $SHELL != "/usr/bin/zsh" ]]; then
+		echo "Changing shell to zsh"
+		chsh -s $(which zsh)
+	else
+		echo "Skipping changing shell"
+	fi
 
 	# Install Oh-my-zsh
-	cd
-	sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-	cd ~/.oh-my-zsh/custom/plugins
-	git clone https://github.com/zsh-users/zsh-syntax-highlighting
-	git clone https://github.com/zsh-users/zsh-autosuggestions
+	if [[ -d .oh-my-zsh ]]; then
+		echo "Installing oh-my-zsh"
+		cd
+		sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+		cd ~/.oh-my-zsh/custom/plugins
+		git clone https://github.com/zsh-users/zsh-syntax-highlighting
+		git clone https://github.com/zsh-users/zsh-autosuggestions
+	else
+		echo "Skipping install oh-my-zsh"
+	fi
 
 elif uname -v | grep ARCH > /dev/null; then
 	#package_manager="pacman -S"
@@ -37,7 +53,7 @@ elif uname -v | grep ARCH > /dev/null; then
 	# TODO: Add more here if needed
 fi
 
-if -z `git config --global user.email` || -z `git config --global user.name`; then
+if [[ -z `git config --global user.email` ]] || [[ -z `git config --global user.name` ]]; then
 	echo "Enter email for git config: "
 	read email
 	echo "Enter name for git config: "
