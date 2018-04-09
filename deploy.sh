@@ -1,4 +1,5 @@
 #!/bin/bash
+git pull
 # Deploy Alacritty
 if command -v alacritty > /dev/null; then
 	cp alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
