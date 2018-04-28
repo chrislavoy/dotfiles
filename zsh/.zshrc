@@ -113,6 +113,9 @@ export QT_DEBUG=false
 export QT_PKG_CONFIG=true
 
 export TESSDATA_PREFIX=/usr/share/
+
+export DOTNET_CLI_TELEMETRY_OPTOUT=true
+
 export PATH=$HOME/bin:$PATH
 
 # Functions
