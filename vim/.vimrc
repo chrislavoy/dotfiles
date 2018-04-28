@@ -4,6 +4,7 @@ set shiftwidth=4
 set ruler
 set cursorline
 set mouse=a
+set termguicolors
 
 " Changed from 4000 for vim-gitgutter
 set updatetime=250
@@ -64,13 +65,16 @@ let g:deoplete#enable_at_startup = 1
 let g:deoplete#sources#go#gocode_binary = '/home/chris/go/bin/gocode'
 
 " deoplete-clang settings
-let g:deoplete#sources#clang#libclang_path = '/usr/lib/libclang.so'
+let g:deoplete#sources#clang#libclang_path = '/usr/lib/llvm-6.0/lib/libclang.so'
 " Other possible path locations:
 "  '/usr/local/opt/llvm/lib/libclang.dylib'
 "  '/usr/lib64/libclang.so.4'
-let g:deoplete#sources#clang#clang_header = '/usr/lib64/clang/'
+"  '/usr/lib/libclang.so'
+
+let g:deoplete#sources#clang#clang_header = '/usr/lib/llvm-6.0/lib/clang/'
 " Other possible path locations:
 "  '/usr/local/opt/llvm/lib/clang/'
+"  '/usr/lib64/clang/'
 
 " Settings for NERDTree
 map <C-\> :NERDTreeToggle<CR>
@@ -153,7 +157,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-surround'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'vim-airline/vim-airline'
-Plug 'ctrlpvim/ctrlp.vim'
+"Plug 'ctrlpvim/ctrlp.vim'
 Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
 Plug 'terryma/vim-multiple-cursors'
 Plug 'sirver/ultisnips'
@@ -187,12 +191,20 @@ Plug 'uguu-org/vim-matrix-screensaver'
 Plug 'vim-scripts/c.vim'
 Plug 'lervag/vimtex'
 Plug 'xuhdev/vim-latex-live-preview'
+" --------------------------------
+Plug 'Shougo/denite.nvim'
+Plug 'artur-shaik/vim-javacomplete2'
+Plug 'neomake/neomake'
+Plug 'morhetz/gruvbox'
 
 call plug#end()
 
-color dracula
+set background=dark
+let g:gruvbox_italic=1
+let g:gruvbox_contrast_dark="hard"
+color gruvbox
+"color dracula
 "color monokai
-"set background=dark
 "color desert
 
 highlight Normal ctermbg=none
@@ -204,7 +216,7 @@ set scrolloff=0
 "autocmd VimEnter * Tagbar
 "autocmd VimEnter * NERDTree
 "autocmd VimEnter * wincmd p
-""autocmd VimEnter * wincmd p
+"autocmd VimEnter * wincmd p
 
 " Old Settings
 "let g:solarized_termtrans=1

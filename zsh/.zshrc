@@ -113,6 +113,7 @@ export QT_DEBUG=false
 export QT_PKG_CONFIG=true
 
 export TESSDATA_PREFIX=/usr/share/
+export PATH=$HOME/bin:$PATH
 
 # Functions
 backup() {
