@@ -17,7 +17,7 @@ if uname -v | grep Ubuntu > /dev/null || command -v apt-get > /dev/null; then
 
 	# Install apt-fast
 	if ! grep -q "^deb .*apt-fast/stable" /etc/apt/sources.list /etc/apt/sources.list.d/*; then
-		echo "Addomg apt-fast/stable"
+		echo "Adding apt-fast/stable"
 		sudo add-apt-repository ppa:apt-fast/stable
 	else
 		echo "Skipping apt-fast repository"
@@ -27,6 +27,11 @@ if uname -v | grep Ubuntu > /dev/null || command -v apt-get > /dev/null; then
 	sudo apt-get -qq update
 	sudo apt-get -qq upgrade
 	sudo apt-get -qq install git git-core wget curl gcc python python3 vim zsh software-properties-common python-dev python-pip python3-dev python3-pip fonts-powerline neovim apt-fast
+	sudo pip install --upgrade pip
+	sudo pip install --upgrade neovim
+	if [[ -e ~/.local/share/nvim/site/autoload/plug.vim ]]; then
+		curl -fLo ~/.local/share/nvim/site/autoload/plug --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+	fi
 
 	if [[ $SHELL != "/usr/bin/zsh" ]]; then
 		echo "Changing shell to zsh"
@@ -36,7 +41,7 @@ if uname -v | grep Ubuntu > /dev/null || command -v apt-get > /dev/null; then
 	fi
 
 	# Install Oh-my-zsh
-	if [[ -d .oh-my-zsh ]]; then
+	if [[ ! -d .oh-my-zsh ]]; then
 		echo "Installing oh-my-zsh"
 		cd
 		sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -65,6 +70,6 @@ if [[ -z `git config --global user.email` ]] || [[ -z `git config --global user.
 
 fi
 
-. deploy.sh
+./deploy.sh
 
 exit 0
