@@ -6,6 +6,8 @@ set cursorline
 set mouse=a
 set termguicolors
 
+syntax on
+
 " Changed from 4000 for vim-gitgutter
 set updatetime=250
 
@@ -65,13 +67,13 @@ let g:deoplete#enable_at_startup = 1
 let g:deoplete#sources#go#gocode_binary = '/home/chris/go/bin/gocode'
 
 " deoplete-clang settings
-let g:deoplete#sources#clang#libclang_path = '/usr/lib/llvm-6.0/lib/libclang.so'
+let g:deoplete#sources#clang#libclang_path = '/usr/lib/llvm-3.8/lib/libclang.so.1'
 " Other possible path locations:
 "  '/usr/local/opt/llvm/lib/libclang.dylib'
 "  '/usr/lib64/libclang.so.4'
 "  '/usr/lib/libclang.so'
 
-let g:deoplete#sources#clang#clang_header = '/usr/lib/llvm-6.0/lib/clang/'
+let g:deoplete#sources#clang#clang_header = '/usr/lib/llvm-3.8/lib/clang/'
 " Other possible path locations:
 "  '/usr/local/opt/llvm/lib/clang/'
 "  '/usr/lib64/clang/'
@@ -202,6 +204,7 @@ call plug#end()
 set background=dark
 let g:gruvbox_italic=1
 let g:gruvbox_contrast_dark="hard"
+let g:gruvbox_termcolors=256
 color gruvbox
 "color dracula
 "color monokai
@@ -228,7 +231,6 @@ set scrolloff=0
 "colorscheme solarized
 "let g:solarized_termcolors=256
 ""let g:solarized_termtrans=1
-"syntax on
 "set backspace=2"
 
 " Old Plugins

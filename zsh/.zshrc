@@ -132,3 +132,6 @@ lookbusy() {
 }
 
 export PATH=$HOME/bin:$PATH
+export GOPATH=$HOME/go
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOPATH/bin
