@@ -90,6 +90,7 @@ alias zshrc="nvim ~/.zshrc"
 alias nvimrc="nvim ~/.config/nvim/init.vim"
 alias i3config="nvim ~/.config/i3/config"
 alias alacrittyrc="nvim ~/.config/alacritty/alacritty.yml"
+alias afk="figlet \"Be  right  back\" | lolcat"
 
 # Set Aliases if running Ubuntu
 if command -v apt-get > /dev/null; then
@@ -135,3 +136,6 @@ export PATH=$HOME/bin:$PATH
 export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOPATH/bin
+export DISPLAY=:0
+export LIBGL_ALWAYS_INDIRECT=1
+export DOTNET_CLI_TELEMETRY_OPTOUT=1

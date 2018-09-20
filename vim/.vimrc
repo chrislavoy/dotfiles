@@ -127,6 +127,9 @@ let g:cpp_class_decl_highlight = 1
 "let g:cpp_experimental_simple_template_highlight = 1
 "let g:cpp_concepts_highlight = 1
 
+" Omnisharp
+set completeopt-=preview
+
 " *** VIM-PLUG ***
 " Auto-install of Vim-Plug
 if empty(glob('~/.vim/autoload/plug.vim'))
@@ -184,7 +187,7 @@ Plug 'jistr/vim-nerdtree-tabs'
 Plug 'vim-scripts/JavaScript-Indent', { 'for': 'javascript' }
 Plug 'moll/vim-node', { 'for': ['javascript', 'json', 'typescript', 'node'] }
 Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'crusoexia/vim-monokai'
+"Plug 'crusoexia/vim-monokai'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-fugitive'
 Plug 'octol/vim-cpp-enhanced-highlight'
@@ -197,6 +200,7 @@ Plug 'xuhdev/vim-latex-live-preview'
 Plug 'Shougo/denite.nvim'
 Plug 'artur-shaik/vim-javacomplete2'
 Plug 'neomake/neomake'
+Plug 'omnisharp/omnisharp-vim'
 Plug 'morhetz/gruvbox'
 
 call plug#end()
