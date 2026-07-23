@@ -1,0 +1,15 @@
+# [general]
+# import = [
+# 	"./everforest-dark.toml"
+# ]
+
+[window]
+dimensions = { columns = 140, lines = 40 }
+opacity = 1
+
+[terminal]
+shell = "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
+
+[font]
+normal = { family = "FiraMono Nerd Font", style = "Regular" }
+size = 12
